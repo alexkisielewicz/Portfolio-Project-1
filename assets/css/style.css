@@ -182,9 +182,41 @@ label {
   text-align: justify;
 }
 
+/* Stylink "thank you" and "404" page */
 .thankyou {
+    background-color: #fff;
     text-align:center;
-    margin: auto;
+
+}
+
+.thankyou-caption {
+  width:50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.thankyou-caption h1 {
+  max-width: fit-content;
+  font-size:5em;
+  font-weight: 900;
+  background-color: #ffd4c2;
+  padding: 0 10px 0 10px;
+  text-align: left;
+  color:#2E221E
+}
+
+.thankyou-caption p {
+  max-width: fit-content;
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: 700;
+  font-style: italic;
+  background-color: #2E221E;
+  padding: 10px 10px;
+  margin: 10px 10px;
 }
 
 /* Table from Timetable section */
@@ -419,4 +451,5 @@ iframe {
     flex: 100%;
     max-width: 100%;
   }
+  
 }
