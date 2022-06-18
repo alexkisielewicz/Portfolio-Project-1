@@ -182,6 +182,11 @@ label {
   text-align: justify;
 }
 
+.thankyou {
+    text-align:center;
+    margin: auto;
+}
+
 /* Table from Timetable section */
 table {
     margin: auto;
