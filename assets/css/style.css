@@ -37,12 +37,17 @@ a:hover {
   }
 
 /* How to override Bootstrap h1,h2,h3 size? It doesn't work */
-h1 {
-    font-size: 3em;
+.container h1 {
+    margin: 1em 0 1em 0;
   }
 
+.white h1 {
+    margin: 1em 0 1em 0;
+}
+
+
 h2 {
-    font-size: 2em;
+  margin: 1em 0 1.5em 0;
   }
 
 h3 {
@@ -145,11 +150,6 @@ label {
 
 /* Styling containers, removing margins */
 /* to override margins for bootstrap containers and hr line dividers */
-.container,.white h1 {
-    text-align: center;
-    padding: 1em;
-  }
-
 .white {
     background-color: #ffffff;
   }
@@ -170,6 +170,10 @@ table {
     border: 1px solid #ffffff;
   }
 
+.hours {
+  font-weight: 600;
+}
+
 ul {
     list-style-type: none; 
     padding: 0; 
@@ -181,11 +185,12 @@ th {
     border-bottom: 2px solid brown;
   }
 
+
 /* Styling Booking section elements */
 .booking {
-    margin: auto;
+    margin: 1em auto 1em auto;
     width: 40%;
-    padding:0.5em;
+    padding:1em;
     background-color: #ffffff;
     border-color: #ff9f76;
     border-radius: 1em;
@@ -259,6 +264,7 @@ th {
     font-size: x-large;
     font-style: italic;
     font-weight: 500;
+    text-align: justify;
   }
 
 
@@ -301,9 +307,14 @@ iframe {
     margin: 0;
   }
 
-.copyright a,a:hover {
-    text-decoration: none;
-  }
+.footer a {
+  text-decoration: none;
+}
+
+ .footer a:hover {
+  color: orangered;
+  text-decoration: underline;
+ } 
 
 /* media queries for responsivnes */
 
