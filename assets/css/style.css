@@ -1,0 +1,386 @@
+/* Google fonts link */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,800;0,900;1,100;1,200;1,700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size:1.25em;
+    font-weight: 400;
+    color:#2E221E;
+    background-color: #ffffff;
+    background-image: linear-gradient(to bottom, #ffe5db, #ffe1db, #ffdcde, #ffd9e3, #ffd6e9, #ffd5e8, #ffd3e7, #ffd2e6, #ffd1dc, #ffd1d2, #ffd2c9, #ffd4c2);
+  }
+
+a {
+    color: inherit;
+    text-decoration: underline 1px solid orange;
+  }
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #000000;
+  }
+
+/* Styling Call-to-action button in the Carusel caption */
+.button-cta {
+    font-size: 1.5em;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    float:right;
+    font-weight: 900;
+    color:#000000;
+    background-color: #ffd2e6;
+  }
+
+.button-cta:hover {
+    background-color: #ff9f76;
+  }
+
+/* How to override Bootstrap h1,h2,h3 size? It doesn't work */
+h1 {
+    font-size: 3em;
+  }
+
+h2 {
+    font-size: 2em;
+  }
+
+h3 {
+    font-size: 1.25em;
+   }
+
+label {
+    padding:0.25em;
+  }
+
+.logo img {
+    margin: 0 20px;
+  }
+
+.user-login {
+    float: right;
+    margin-right:1.5em; 
+  }
+
+#cover-photo1 {
+    height: 100vh;
+    background: url(../../assets/img/cover1.webp)  center / cover;
+  }
+
+#cover-photo2 {
+    height: 100vh;
+    background: url(../../assets/img/cover2.webp)  center / cover;
+  }
+
+#cover-photo3 {
+    height: 100vh;
+    background: url(../../assets/img/cover3.webp)  center / cover;
+  }
+
+.navbar {
+    color:#ff9f76;
+    background-color:#333;
+  }
+
+.navbar a {
+    color:#ff9f76;
+    text-decoration:none;
+  }
+
+.navbar-toggler {
+    background-color: #ff9f76;
+    color: #ffffff;
+  }
+
+.navbar-nav { 
+    margin:0 auto;
+    text-align: center;
+  }
+
+.navbar-nav li  {
+    display: inline-block;
+  }
+
+.nav-item img:hover {
+    background-color: #000000;
+    text-decoration: none;
+  }
+
+.navbar-nav li:hover {
+    background-color: #ff9f76; 
+  }
+
+.carousel-caption {
+    width:50%;
+    position: absolute;
+    left: 70%;
+    top: 70%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left; 
+    opacity: 0.9;
+  }
+
+.carousel-caption h1 {
+    max-width: fit-content;
+    font-size:5em;
+    font-weight: 900;
+    background-color: #ffd4c2;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    color:#2E221E
+  }
+
+.carousel-caption p {
+    max-width: fit-content;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 700;
+    font-style: italic;
+    background-color: #2E221E;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    float:right;
+  }
+
+/* Styling containers, removing margins */
+/* to override margins for bootstrap containers and hr line dividers */
+.container,.white h1 {
+    text-align: center;
+    padding: 1em;
+  }
+
+.white {
+    background-color: #ffffff;
+  }
+
+.container-fluid {
+    padding: 0;
+  }
+
+.mt-0 .mb-0 {
+    margin: 0;
+  }
+
+/* Table from Timetable section */
+table {
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ffffff;
+  }
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+  }  
+
+th {
+    width:6vw;
+    border-bottom: 2px solid brown;
+  }
+
+/* Styling Booking section elements */
+.booking {
+    margin: auto;
+    width: 40%;
+    padding:0.5em;
+    background-color: #ffffff;
+    border-color: #ff9f76;
+    border-radius: 1em;
+  }
+
+.booking input:hover {
+    background-color: #ffe5db;
+  }
+
+.booking input[type=submit] {
+    background-color: #ffffff;
+    border: 0px;
+  }
+
+.submit {
+    width:100%;
+    color:#fc692a;
+    border: 1px solid #ff9f76;
+    border-radius: 0.5em;
+    padding: 5px;
+  }
+
+.submit:hover {
+    background-color: #ffd1d2;
+    color:#2E221E;
+  }
+
+/* Styling <img> element for yoga instructor avatars */
+.instructors img {
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+    border-radius: 125px;
+  }
+
+/* IMG hover opacity effect */
+.instructors img:hover {
+    opacity: 0.8;
+  }
+
+/* Styling Gallery section and image grid based on "Responsive Image Grid" tutorial from w3schools.com */
+.gallery-row {
+    background-color: #ffffff;
+    display: -ms-flexbox; 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    text-align:center;
+  }
+
+.gallery-column {
+    flex: 25%;
+    max-width: 20%;
+    padding: 0;
+  }
+
+.gallery-column img {
+    margin-top: 0px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+.gallery-row img:hover {
+    opacity: 0.8;
+  }
+
+/* Styling Quote Section */ 
+.quote {
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 500;
+  }
+
+
+/* Styling iframe element for Google Map */
+iframe {
+    width:100%;
+    height:15em;
+    display: inline-block;
+  }
+
+/* Styling Footer section and social media icons */
+.footer {
+    color:brown;
+  }
+
+.icons {
+    font-size: 1.5em;  
+    padding: 0 0.25em;
+  }
+
+.icons-social  {
+    color: brown;
+    font-size: 1.5em;
+  }
+
+.icons-social i {
+    color:brown;
+    font-size: 1.5em;
+    padding: 5px;
+  }
+
+.icons-social i:hover {
+    color:#ff9f76;
+  }
+
+.copyright {
+    text-align: center;
+    font-size: medium;
+    padding: 0;
+    margin: 0;
+  }
+
+.copyright a,a:hover {
+    text-decoration: none;
+  }
+
+/* media queries for responsivnes */
+
+  @media (max-width: 768px) {
+  
+  .container,.booking {
+    width: 100%;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .carousel-caption {
+    width:20%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left; 
+    opacity: 0.9;
+  }
+
+.carousel-caption h1 {
+    max-width: 100%;
+    font-size: 1em;
+    font-weight: 900;
+    background-color: #ffd4c2;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    color:#2E221E
+  }
+
+.carousel-caption p {
+    max-width: 100%;
+    color: #ffffff;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 700;
+    font-style: italic;
+    background-color: #2E221E;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    float:left;
+  }
+
+.button-cta {
+    font-size: 0.75em;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    float:right;
+    font-weight: 700;
+    color:#000000;
+    background-color: #ffd2e6;
+  }
+
+.gallery-row {
+    width: 100%;
+  }
+
+.gallery-column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+} 
+
+/* Responsive layout - makes the five columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .gallery-row {
+    width: 100%;
+  }
+
+  .gallery-column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}

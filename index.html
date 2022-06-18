@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <meta name="description" content="This is my first website for Portfolio Project#1">
+  <title>My first project</title>
+  <!-- Bootstrap CSS stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- script for Font Awesome Kit -->
+  <script src="https://kit.fontawesome.com/baf9609738.js" crossorigin="anonymous"></script>
+  <!-- Custom CSS stylesheet -->
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+  <!-- links to favicon generated on favicon.io below-->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">  
+</head>
+
+<body>
+<!-- Bootstrap Navbar START -->
+  <header>
+  <nav class="navbar navbar-expand-md fixed-top">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button><a href="#" class="logo" title="Yoga Studio - Home Page"><img src="assets/img/lotus.png" width="80" height="55" alt="Logo of Yoga Studio"></a> 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#" title="home page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#timetable" title="Timetable">Timetable</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#learn" title="Learn">Learn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#instructors" title="Instructors">Instructors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery" title="Gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#booking" title="booking">Sign-up!</a>
+        </li>
+      </ul><span class="user-login"><a href="#">Sign-in <i class="fa-solid fa-user-lock"></i></a></span>
+    </div>
+</nav>
+<!-- Bootstrap Navbar END -->
+
+<!-- Bootstrap Carousel START. Style of captions and it's positioning has been customized -->
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" id="cover-photo1">
+      <div class="container">
+        <div class="carousel-caption text-start">
+          <h1>Welcome to Yoga Studio!</h1>
+          <p>You are in the right place to start your joga journey.</p>
+          <button onclick="window.location.href='#about';" class="button-cta">Start now!</button>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item" id="cover-photo2">
+      <div class="container">
+        <div class="carousel-caption text-start">
+          <h1>Practice with us</h1>
+          <p>Learn best techniques from our experienced instructors.</p>
+          <button onclick="window.location.href='#learn';" class="button-cta">Learn with us!</button>
+        </div> 
+      </div>
+    </div>
+    <div class="carousel-item" id="cover-photo3">
+      <div class="container">
+        <div class="carousel-caption text-start">
+          <h1>Group classes</h1>
+          <p>Beginner or advanced? We have classes for you.</p>
+          <button onclick="window.location.href='#booking';" class="button-cta">Book now!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</header>
+<!-- Bootstrap Carusel END -->
+
+<hr class="featurette-divider mb-0 mt-0" id="about">
+
+<!-- About section START -->
+<main>
+<div class="container-fluid">
+  <div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold">Welcome to Yoga Studio!</h1>
+    <div class="col-lg-6 mx-auto">
+      <p>Yoga Studio is a place where you can start your mental, spiritual and phisical yourney with yoga. If you are looking for alternative for popular gyms and fitness clubs our studio is for you!.</p>
+          <div class="row">
+            <div class="col">
+              <p><i class="fa-solid fa-video"></i></p>
+              <p>100+ on-line trainings</p>
+            </div>
+            <div class="col">
+              <p><i class="fa-solid fa-pen"></i></p>
+              <p>Individualy cradted training plans</p>
+            </div>
+            <div class="col">
+              <p><i class="fa-solid fa-building"></i></p>
+              <p>Modern studio</p>
+            </div>
+            <div class="col">
+              <p><i class="fa-solid fa-people-group"></i></p>
+              <p>Experienced nstructors</p>
+            </div>
+            <div class="col">
+              <p><i class="fa-solid fa-heart-pulse"></i></p>
+              <p>Weekly challenges</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  </main>
+<!-- About section END -->
+
+<hr class="featurette-divider mb-0 mt-0" id="timetable">
+
+<!-- Timetable section START -->
+<section>
+<div class="white">
+<div class="container">
+  <div class="row">
+    <h2>Classes Timetable <i class="fa-solid fa-calendar-days"></i></h2>
+    <div class="table-responsive table-hover">
+        <table class="table">
+          <tr>
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+              <th>Saturday</th>
+              <th>Sunday</th>
+          </tr>
+            <tr>
+              <td class="table-secondary">Intro</td>
+              <td class="table-success">Beginner</td>
+              <td class="table-success">Beginner</td>
+              <td class="table-secondary">Intro</td>
+              <td class="table-success">Beginner</td>
+              <td class="table-danger">Advanced</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td class="table-danger">Advanced</td>
+              <td>&nbsp;</td>
+              <td class="table-info">Pregnancy</td>
+              <td class="table-danger">Advanced</td>
+              <td>&nbsp;</td>
+              <td class="table-success">Beginner</td>
+            </tr>
+            <tr>
+              <td class="table-success">Beginner</td>
+              <td class="table-info">Pregnancy</td>
+              <td class="table-success">Beginner</td>
+              <td class="table-danger">Advanced</td>
+              <td class="table-secondary">Intro</td>
+              <td class="table-success">Beginner</td>
+              <td class="table-info">Pregnancy</td>
+            </tr>
+            <tr>
+              <td class="table-danger">Advanced</td>
+              <td class="table-success">Beginner</td>
+              <td class="table-secondary">Intro</td>
+              <td>&nbsp;</td>
+              <td class="table-info">Pregnancy</td>
+              <td>&nbsp;</td>
+              <td class="table-danger">Advanced</td>
+            </tr>
+          </table>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- Timetable section END-->
+
+<hr class="featurette-divider mb-0 mt-0" id="learn">
+
+
+<!-- Learn section START -->
+<section>
+<div class="container col-xxl-8 px-4 py-5">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-lg-6">
+      <h2 id="lessons">On-line & in studio classes </h2>
+      <p>resources to learn on-line and in 
+        Learn the discipline of body and mind, 
+        Our instructors use best techniques to controll body and mind
+        You can practice classic yoga or try our special programmes developed by our <a href="#instructors" title="Meet our yoga instructors">instructors</a>.  instructors.
+      </p>  
+      <ul>
+          <li>Power Vinyasa</li>
+          <li>Vinyasa Flow</li>
+          <li>Hatha Yoga</li>
+          <li>Yin yoga</li>
+          <li>Morning Follow</li>
+          <li>Pregnancy Yoga <a href="#" title="Full offer yoga classes">and more...</a></li>
+      </ul>
+    </div>
+    <div class="col-10 col-sm-8 col-lg-6">
+      <h3>Featured video:</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/A4ViwsLKoSY" title="YouTube video player" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>  
+  </div>
+</div>
+</section>
+<!-- Learn section END -->
+
+<hr class="featurette-divider mb-0 mt-0" id="instructors">
+
+<!-- Instructors section START-->
+<section>
+<div class="white">
+<div class="px-4 py-5 my-5 text-center mb-0 mt-0">
+  <h2>Meet our  instructors <i class="fa-solid fa-people-group"></i></h2>
+  <div class="row justify-content-md-center instructors">
+    <div class="col-md-auto">
+      <p><a href="#" target="_self" title="Instructor Jasmine"><img src="assets/img/jasmine.webp" loading="lazy" alt="Instructor Jasmine"></a></p>
+      <p>Jasmine</p>
+    </div>
+    <div class="col-md-auto">
+      <p><a href="#" target="_self" title="Instructor Iri"><img src="assets/img/iri.webp" loading="lazy" alt="Instructor Iri"></a></p>
+      <p>Iri</p>
+    </div>
+    <div class="col-md-auto">
+      <p><a href="#" target="_self" title="Instructor Jenny"><img src="assets/img/jenny.webp" loading="lazy" alt="Instructor Jenny"></a></p>
+      <p>Jenny</p>
+    </div>
+    <div class="col-md-auto">
+      <p><a href="#" target="_self" title="Instructor Ricky"><img src="assets/img/ricky.webp" loading="lazy" alt="Instructor Ricky"></a></p>
+      <p>Ricky</p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- Instructors section END -->
+
+<hr class="featurette-divider mb-0 mt-0" id="gallery">
+
+<!-- Gallery section START, image grid tutorial found on w3schools.com -->
+<!-- Validator reports: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.-->
+<section>
+    <div class="gallery-row">
+      <div class="gallery-column">
+        <img src="assets/img/gallery/4.webp" loading="lazy" alt="Excercises in Yoga Studio">
+        <img src="assets/img/gallery/2.webp" loading="lazy" alt="">
+        <img src="assets/img/gallery/3.webp" loading="lazy" alt="">
+      </div>
+      <div class="gallery-column">
+        <img src="assets/img/gallery/1.webp" loading="lazy" alt="">
+        <img src="assets/img/gallery/5.webp" loading="lazy" alt="">
+        <img src="assets/img/gallery/9.webp" loading="lazy" alt="">
+      </div>
+      <div class="gallery-column">
+        <img src="assets/img/gallery/13.webp" loading="lazy" alt="">
+        <img src="assets/img/gallery/14.webp" loading="lazy" alt="">
+        <img src="assets/img/gallery/6.webp" loading="lazy" alt="">
+      </div>
+      <div class="gallery-column">
+        <img src="assets/img/gallery/12.webp" loading="lazy" alt="">
+        <img src="assets/img/gallery/7.webp" loading="lazy" alt="">
+        <img src="assets/img/gallery/15.webp" loading="lazy" alt="">
+        
+      </div>
+      <div class="gallery-column">
+        <img src="assets/img/gallery/16.webp" loading="lazy" alt="">
+        <img src="assets/img/gallery/11.webp" loading="lazy" alt="">
+        <img src="assets/img/gallery/10.webp" loading="lazy" alt="">
+      </div>
+    </div>
+</section>
+<!-- Gallery section END -->
+
+<hr class="featurette-divider mb-0 mt-0">
+
+<!-- Quote section START -->
+<section>
+<div class="white">
+<div class="px-4 py-5 my-5 text-center mb-0 mt-0">
+  <h2>Quote of the day <i class="fa-solid fa-quote-left"></i></h2>
+  <div class="col-lg-6 mx-auto">
+    <blockquote class="quote">“True yoga is not about the shape of your body, but the shape of your life. Yoga is not to be performed; yoga is to be lived. Yoga doesn’t care about what you have been; yoga cares about the person you are becoming. Yoga is designed for a vast and profound purpose, and for it to be truly called yoga, its essence must be embodied.” — Aadil Palkhivala</blockquote>
+  </div>
+</div>
+</div>
+</section>
+<!-- Quote section END -->
+
+<hr class="featurette-divider mb-0 mt-0" id="booking">
+
+<!-- Booking section START -->
+<section>
+<div class="container">
+  <div class="col-md-auto">
+    <h2>Book your classes <i class="fa-solid fa-address-card"></i></h2>
+    <p>Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+  </div>
+  <div class="booking col-md-auto">
+    <form method="get" action="thankyou.html">
+      <div>
+          <label for="name">Your full name:</label>
+          <input type="text" id="name" name="name" class="form-control" placeholder="John/Jane Doe" required="">
+      </div>
+      <div>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="E-mail" required="">    
+      </div>
+      <div>
+        <label for="phone">Phone:</label>
+        <!-- Pattern to validate phone number found on developer.mozilla.org -->
+        <input type="tel" id="phone" name="phone" class="form-control" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="format: xxx-xxx-xxxx" required="">
+      </div>
+      <div>
+          <label for="date">Date: </label>
+          <input type="date" id="date" name="date" class="form-control" required="">
+      </div>
+      <div>
+          <label for="classes">Choose your class:</label>      
+          <input list="level" id="classes" name="levels" class="form-control" required="">
+      </div>
+      <div>
+        <input type="checkbox" id="policy" class="" name="policy" value="policy" style="margin:0;width:13px;height:13px;overflow:hidden;" required="">
+        <label for="policy"> I agree to <a href="#" style="text-decoration: none; color: #ffae00;" aria-label="Agree to booking policy to continue" title="Read our booking policy">Booking Policy</a></label>
+      </div>
+        <datalist id="level">
+          <option value="Intro" selected>
+          <option value="Beginner">
+          <option value="Advanced">
+          <option value="Pregnancy">
+        </datalist>
+      <button type="submit" value="Submit" class="submit"><i class="fa-solid fa-paper-plane"></i> Submit</button>
+    </form>
+  </div>
+</div>
+</section>
+<!-- Booking section END-->
+
+<hr class="featurette-divider mb-0 mt-0">
+
+<!-- Google Map section START -->
+<!-- Validator reports: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.-->
+<section>
+  <div class="container-fluid mt-0 mb-0">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5666.67184147187!2d-6.26956336543058!3d53.33355301077647!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x93598c4443e33875!2sHot%20Yoga%20by%20Yoga%20Dublin!5e0!3m2!1spl!2sie!4v1654731910019!5m2!1spl!2sie" style="border:0;" allowfullscreen="" title="Our location on the google maps" referrerpolicy="no-referrer-when-downgrade" loading="lazy" class="map"></iframe>
+  </div>
+</section>
+<!-- Google Map section END -->
+
+<hr class="featurette-divider mb-0 mt-0">
+
+<!-- Footer START -->
+<footer class="footer py-5">
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col">
+        <h2><i class="fa-solid fa-map-location-dot"></i> Address:</h2>
+          <address> 1st Floor, 111 Rathmines<br> Rd Lower, Rathmines <br>Dublin, D06 K5F6
+          </address>
+      </div>
+      <div class="col">
+        <h2><i class="fa-solid fa-envelope"></i> Contact:</h2>
+        <p>Tel: 555-455-243<br>
+        E-mail: <a href="mailto:contact@yoga.com" title="Sent us an email">contact@yoga.com</a></p>
+        <p class="copyright">
+          <a href="#" title="Privacy policy">Privacy Policy</a> &bull; 
+          <a href="#" title="Terms and conditions">Terms & Conditions</a> &bull; 
+          <a href="#" title="Support">Support</a></p>
+        <p class="copyright">© 2022 Portfolio Project#1</p>
+      </div>
+      
+      <div class="col">
+        <h2><i class="fa-solid fa-hashtag"></i> Follow us:</h2>
+          <p>
+            <a href="http://www.facebook.com" target="_blank" title="Follow us on facebook" class="icons-social"><i class="fa-brands fa-facebook"></i></a>
+            <a href="http://www.instagram.com" target="_blank" title="Follow us on instagram" class="icons-social"><i class="fa-brands fa-instagram"></i></a>
+            <a href="http://www.twitter.com" target="_blank" title="Follow us on twitter" class="icons-social"><i class="fa-brands fa-twitter"></i></a>
+            <a href="http://www.youtube.com" target="_blank" title="Follow us on youtube" class="icons-social"><i class="fa-brands fa-youtube"></i></a>
+          </p>Mon-Fri: 08:00-18:00
+          Sat-Sun 09:00-16:00
+        </div>
+    </div>
+  </div>
+  <p class="float-end mb-3 px-4 mt-0">
+    <a href="#top" title="Go to top"><i class="fa-solid fa-angles-up icons-social"></i></a>
+  </p>
+</footer>
+<!-- Footer END -->
+
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+<!-- TODO
+Add "Opening hours"
+Add more text content
+Add Aria labels
+Add Meta tags
+-->
+
+</body>
+</html>
