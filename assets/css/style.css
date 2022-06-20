@@ -1,16 +1,16 @@
 /* Google fonts link */
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,800;0,900;1,100;1,200;1,700&display=swap');
 
 body {
     font-family: 'Raleway', sans-serif;
-    font-size:1.25em;
+    font-size: 1.25em;
     font-weight: 400;
-    color:#2E221E;
+    color: #2E221E;
     background-color: #ffffff;
     background-image: linear-gradient(to bottom, #ffe5db, #ffe1db, #ffdcde, #ffd9e3, #ffd6e9, #ffd5e8, #ffd3e7, #ffd2e6, #ffd1dc, #ffd1d2, #ffd2c9, #ffd4c2);
   }
 
+/* Styling anchor element */
 a {
     color: inherit;
     text-decoration: underline 1px solid orange;
@@ -22,8 +22,38 @@ a:hover {
     text-decoration-color: orangered;
   }
 
-.learn-more {
-    float:right;
+/* Customising Bootstrap Navbar */  
+.navbar {
+  color: #ff9f76;
+  background-color: #333;
+}
+
+.navbar a {
+  color: #ff9f76;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  background-color: #ff9f76;
+  color: #ffffff;
+}
+
+.navbar-nav { 
+  margin:0 auto;
+  text-align: center;
+}
+
+.navbar-nav li  {
+  display: inline-block;
+}
+
+.nav-item img:hover {
+  background-color: #000000;
+  text-decoration: none;
+}
+
+.navbar-nav li:hover {
+  background-color: #ff9f76; 
 }
 
 /* Styling Call-to-action button in the Carusel caption and site body */
@@ -33,7 +63,7 @@ a:hover {
     margin: 10px 10px;
     text-align: center;
     font-weight: 900;
-    color:#000000;
+    color: #000000;
     background-color: #ffd2e6;
   }
 
@@ -41,13 +71,13 @@ a:hover {
     background-color: #ff9f76;
   }
 
-  .button-cta-main {
+.button-cta-main {
     font-size: 1.25em;
     padding: 10px 10px;
     width: 20%;
     text-align: center;
     font-weight: 900;
-    color:#000000;
+    color: #000000;
     background-color: #ffd2e6;
   }
 
@@ -55,15 +85,13 @@ a:hover {
     background-color: #ff9f76;
   }  
 
-/* How to override Bootstrap h1,h2,h3 size? It doesn't work */
-
-
+/* Styling basic elements and adding classes to position site elements */
 h2, h3 {
     margin: 1em 1em;
-}
+  }
 
 label {
-    padding:0.25em;
+    padding: 0.25em;
   }
 
 .logo img {
@@ -72,9 +100,14 @@ label {
 
 .user-login {
     float: right;
-    margin-right:1.5em; 
+    margin-right: 1.5em; 
   }
 
+.learn-more {
+    float: right;
+  }
+
+/* 3 id's for carusel cover images and it's caption */
 #cover-photo1 {
     height: 100vh;
     background: url(../../assets/img/cover1.webp)  center / cover;
@@ -90,41 +123,8 @@ label {
     background: url(../../assets/img/cover3.webp)  center / cover;
   }
 
-.navbar {
-    color:#ff9f76;
-    background-color:#333;
-  }
-
-.navbar a {
-    color:#ff9f76;
-    text-decoration:none;
-  }
-
-.navbar-toggler {
-    background-color: #ff9f76;
-    color: #ffffff;
-  }
-
-.navbar-nav { 
-    margin:0 auto;
-    text-align: center;
-  }
-
-.navbar-nav li  {
-    display: inline-block;
-  }
-
-.nav-item img:hover {
-    background-color: #000000;
-    text-decoration: none;
-  }
-
-.navbar-nav li:hover {
-    background-color: #ff9f76; 
-  }
-
 .carousel-caption {
-    width:50%;
+    width: 50%;
     position: absolute;
     left: 70%;
     top: 70%;
@@ -136,12 +136,12 @@ label {
 
 .carousel-caption h1 {
     max-width: fit-content;
-    font-size:5em;
+    font-size: 5em;
     font-weight: 900;
     background-color: #ffd4c2;
     padding: 0 10px 0 10px;
     text-align: center;
-    color:#2E221E
+    color: #2E221E
   }
 
 .carousel-caption p {
@@ -153,11 +153,10 @@ label {
     background-color: #2E221E;
     padding: 10px 10px;
     margin: 10px 10px;
-    float:right;
+    float: right;
   }
 
-/* Styling containers, removing margins */
-/* to override margins for bootstrap containers and hr line dividers */
+/* Styling containers, removing margins - to override margins for bootstrap containers and hr line dividers */
 .white {
     background-color: #ffffff;
   }
@@ -166,58 +165,48 @@ label {
     padding: 0;
   }
 
-.mt-0 .mb-0 {
-    margin: 0;
+.center {
+    text-align: center;
   }
 
-.center {
-  text-align: center;
-}
-
 .left {
-  text-align: left;
-}
+    text-align: left;
+  }
 
 .justify {
-  text-align: justify;
-}
+    text-align: justify;
+  }
 
 /* Stylink "thank you" and "404" page */
-.thankyou {
-    background-color: #fff;
-    text-align:center;
-
-}
-
 .thankyou-caption {
-  width:50%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 
 .thankyou-caption h1 {
-  max-width: fit-content;
-  font-size:5em;
-  font-weight: 900;
-  background-color: #ffd4c2;
-  padding: 0 10px 0 10px;
-  text-align: left;
-  color:#2E221E
-}
+    max-width: fit-content;
+    font-size: 5em;
+    font-weight: 900;
+    background-color: #ffd4c2;
+    padding: 0 10px 0 10px;
+    text-align: left;
+    color:#2E221E;
+  }
 
 .thankyou-caption p {
-  max-width: fit-content;
-  color: #ffffff;
-  font-size: 2em;
-  font-weight: 700;
-  font-style: italic;
-  background-color: #2E221E;
-  padding: 10px 10px;
-  margin: 10px 10px;
-}
+    max-width: fit-content;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 700;
+    font-style: italic;
+    background-color: #2E221E;
+    padding: 10px 10px;
+    margin: 10px 10px;
+  }
 
 /* Table from Timetable section */
 table {
@@ -228,8 +217,8 @@ table {
   }
 
 .hours {
-  font-weight: 600;
-}
+    font-weight: 600;
+  }
 
 ul {
     list-style-type: none; 
@@ -247,7 +236,7 @@ th {
 .booking {
     margin: 1em auto 1em auto;
     width: 40%;
-    padding:1em;
+    padding: 1em;
     background-color: #ffffff;
     border-color: #ff9f76;
     border-radius: 1em;
@@ -263,7 +252,7 @@ th {
   }
 
 .submit {
-    width:100%;
+    width: 100%;
     color:#fc692a;
     border: 1px solid #ff9f76;
     border-radius: 0.5em;
@@ -283,7 +272,6 @@ th {
     border-radius: 125px;
   }
 
-/* IMG hover opacity effect */
 .instructors img:hover {
     opacity: 0.8;
   }
@@ -327,8 +315,8 @@ th {
 
 /* Styling iframe element for Google Map */
 iframe {
-    width:100%;
-    height:15em;
+    width: 100%;
+    height: 15em;
     display: inline-block;
   }
 
@@ -348,13 +336,13 @@ iframe {
   }
 
 .icons-social i {
-    color:brown;
+    color: brown;
     font-size: 1.5em;
     padding: 5px;
   }
 
 .icons-social i:hover {
-    color:#ff9f76;
+    color: #ff9f76;
   }
 
 .copyright {
@@ -365,16 +353,15 @@ iframe {
   }
 
 .footer a {
-  text-decoration: none;
-}
+    text-decoration: none;
+  }
 
- .footer a:hover {
-  color: orangered;
-  text-decoration: underline;
- } 
+.footer a:hover {
+    color: orangered;
+    text-decoration: underline;
+  } 
 
-/* media queries for responsivnes */
-
+/* Media queries - responsiveness */
   @media (max-width: 768px) {
   
   .container,.booking {
@@ -386,7 +373,7 @@ iframe {
   }
 
   .carousel-caption {
-    width:20%;
+    width: 20%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -403,7 +390,7 @@ iframe {
     background-color: #ffd4c2;
     padding: 0 10px 0 10px;
     text-align: center;
-    color:#2E221E
+    color: #2E221E;
   }
 
 .carousel-caption p {
@@ -416,7 +403,7 @@ iframe {
     background-color: #2E221E;
     padding: 10px 10px;
     margin: 10px 10px;
-    float:left;
+    float: left;
   }
 
 .button-cta {
@@ -440,7 +427,6 @@ iframe {
   }
 } 
 
-/* Responsive layout - makes the five columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .gallery-row {
     width: 100%;
@@ -451,5 +437,4 @@ iframe {
     flex: 100%;
     max-width: 100%;
   }
-  
 }
