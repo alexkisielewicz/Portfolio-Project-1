@@ -12,13 +12,13 @@ body {
 /* Styling anchor element */
 a {
     color: inherit;
-    text-decoration: underline 1px solid orange;
+    text-decoration: underline 1px solid #ff9f76;
   }
 
 a:hover {
-    color: brown;
+    color: #7A6D5B;
     text-decoration: underline;
-    text-decoration-color: orangered;
+    text-decoration-color: #ff9f76;
   }
 
 /* Customising Bootstrap Navbar */  
@@ -29,6 +29,7 @@ a:hover {
 
 .navbar a {
   color: #ff9f76;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -237,6 +238,7 @@ th {
     padding: 1em;
     background-color: #FFE9F3;
     border-radius: 1em;
+    box-shadow: 10px 10px 5px #D0D2D6;
   }
 
 .booking input:hover {
@@ -312,15 +314,16 @@ iframe {
     display: inline-block;
   }
 
-/* Styling Footer section and social media icons */
+/* Styling Footer section / social media icons / Font-Awesome icons */
 .footer {
     color: #7A6D5B;
   }
 
-.icons {
-    font-size: 1.5em;  
+.icons-header {
+    font-size: 0.75em;  
     padding: 0 0.25em;
   }
+  
 
 .icons-social  {
     font-size: 1.5em;
@@ -336,6 +339,11 @@ iframe {
     color: #ff9f76;
   }
 
+.icons-reasons {
+    color: #ff9f76;
+}
+
+  
 .copyright {
     text-align: center;
     font-size: medium;
