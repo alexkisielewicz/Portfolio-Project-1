@@ -7,7 +7,6 @@ body {
     font-weight: 400;
     color: #2E221E;
     background-color: #ffffff;
-    background-image: linear-gradient(to bottom, #ffe5db, #ffe1db, #ffdcde, #ffd9e3, #ffd6e9, #ffd5e8, #ffd3e7, #ffd2e6, #ffd1dc, #ffd1d2, #ffd2c9, #ffd4c2);
   }
 
 /* Styling anchor element */
