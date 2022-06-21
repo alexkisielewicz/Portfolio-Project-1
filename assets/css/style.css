@@ -73,7 +73,6 @@ a:hover {
     background-color: #FFD9EA;
   }
 
-
 /* Styling basic elements and adding classes to position site elements */
 h2, h3 {
     margin: 1em 1em;
@@ -137,9 +136,10 @@ label {
     background-color:#FFE9F3;
     border-radius: 2%;
   }
-
+ 
 .container-fluid {
     padding: 0;
+    margin: 0;
   }
 
 .center {

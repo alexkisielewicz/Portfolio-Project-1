@@ -62,36 +62,29 @@
 <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" class="toggle-icons" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" id="cover-photo1">
-      <!-- <img src="../../assets/img/cover1.webp"> -->
       <div class="caption">
-        
           <h1>Welcome to Yoga Studio!</h1>
           <p>You are in the right place to start your joga journey.</p>
           <button onclick="window.location.href='#about';" class="button-cta">Start now!</button>
-        
       </div>
     </div>
     <div class="carousel-item" id="cover-photo2">
       <div class="caption">
-        
           <h1>Practice with us</h1>
           <p>Learn best techniques from our experienced instructors.</p>
           <button onclick="window.location.href='#learn';" class="button-cta">Learn with us!</button>
-         
       </div>
     </div>
     <div class="carousel-item" id="cover-photo3">
       <div class="caption">
-        
           <h1>Group classes</h1>
           <p>Beginner or advanced? We have classes for you.</p>
           <button onclick="window.location.href='#booking';" class="button-cta">Book now!</button>
-        
       </div>
     </div>
   </div>
@@ -109,8 +102,8 @@
 <!-- About section START -->
 <main id="about">
   <div class="container-fluid">
-    <div class="px-4 py-5 text-center pink">
-      <h1 class="display-5 fw-bold">
+    <div class="py-5 text-center pink">
+      <h1 class="display-4 fw-bold">
         Welcome to Yoga Studio!
       </h1>
       <div class="col-lg-6 mx-auto">
@@ -150,7 +143,7 @@
 <div class="container-fluid">
   <div class="container py-5">
   <div class="row">
-    <h2 class="text-center">Classes Timetable <i class="fa-solid fa-calendar-days"></i></h2>
+    <h2 class="text-center px-4 py-5">Classes Timetable <i class="fa-solid fa-calendar-days"></i></h2>
     <div class="table-responsive table-hover">
       <table class="table">
         <tr>
@@ -214,9 +207,33 @@
 </section>
 <!-- Timetable section END-->
 
-<!-- Learn section START -->
-<section id="learn">
-  <div class="container col-xxl-8 px-4 py-5 pink">
+<!-- Learn section START 
+<section id="learn"> -->
+  <div class="container-fluid col-xxl-12 px-4 py-5 pink">
+    <div class="row justify-content-md-center">
+      <h2 class="center py-5">On-line & in studio classes <i class="fa-solid fa-chalkboard-user"></i></h2>
+      <div class="col-lg-4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque sit amet porttitor eget dolor morbi non arcu. Nisi vitae suscipit tellus mauris a diam maecenas sed. Pellentesque habitant morbi tristique senectus et netus et. Lorem ipsum dolor sit amet. Accumsan tortor posuere ac ut consequat. Ac felis donec et odio pellentesque. Vel eros donec ac odio tempor orci dapibus ultrices. Laoreet suspendisse interdum consectetur libero id. Eget velit aliquet sagittis id consectetur. Nunc aliquet bibendum enim facilisis gravida neque convallis. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper.
+      </div>
+      <div class="col-lg-4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque sit amet porttitor eget dolor morbi non arcu. Nisi vitae suscipit tellus mauris a diam maecenas sed. Pellentesque habitant morbi tristique senectus et netus et. Lorem ipsum dolor sit amet. Accumsan tortor posuere ac ut consequat. Ac felis donec et odio pellentesque. Vel eros donec ac odio tempor orci dapibus ultrices. Laoreet suspendisse interdum consectetur libero id. Eget velit aliquet sagittis id consectetur. Nunc aliquet bibendum enim facilisis gravida neque convallis. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper.
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+  <div class="container-fluid col-xxl-8 px-4 py-5 pink">
     <div class="row flex-lg-row align-items-center">
       <div class="col-10 col-sm-8 col-lg-6">
         <h2 class="text-center">On-line & in studio classes <i class="fa-solid fa-chalkboard-user"></i></h2>
@@ -252,13 +269,14 @@
       </div>  
     </div>
   </div>
+  -->
 </section>
 <!-- Learn section END -->
 
 <!-- Instructors section START-->
 <section id="instructors">
-    <div class="px-4 py-5 my-5 text-center mb-0 mt-0">
-      <h2>Meet our  instructors <i class="fa-solid fa-people-group"></i></h2>
+    <div class="py-5 center">
+      <h2 class="py-5">Meet our  instructors <i class="fa-solid fa-people-group"></i></h2>
         <div class="row justify-content-md-center instructors">
           <div class="col-md-auto">
             <p>
@@ -332,7 +350,7 @@
 
 <!-- Quote of the day section START -->
 <article>
-    <div class="px-4 py-5 my-5 text-center mb-0 mt-0">
+    <div class="py-5 center">
       <h2>Quote of the day <i class="fa-solid fa-quote-left"></i></h2>
       <div class="col-lg-6 mx-auto">
         <blockquote class="quote">“True yoga is not about the shape of your body, but the shape of your life. Yoga is not to be performed; yoga is to be lived. Yoga doesn’t care about what you have been; yoga cares about the person you are becoming. Yoga is designed for a vast and profound purpose, and for it to be truly called yoga, its essence must be embodied.” — Aadil Palkhivala</blockquote>
