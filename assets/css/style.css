@@ -56,7 +56,7 @@ a:hover {
 }
 
 /* Styling Call-to-action button in the Carusel caption and site body */
-.button-cta-caption {
+.button-cta {
     position: relative;
     top: 50%;
     font-size: 1.5em;
@@ -64,12 +64,13 @@ a:hover {
     margin: 10px 10px;
     text-align: center;
     font-weight: 900;
-    color: #000000;
-    background-color: #ffd2e6;
+    color: #272722;
+    background-color: #ff9f76;
+    border: 0;
   }
 
 .button-cta-caption:hover {
-    background-color: #ff9f76;
+    background-color: #FFD9EA;
   }
 
 .button-cta-main {
@@ -230,38 +231,32 @@ th {
     margin: 1em auto 1em auto;
     width: 40%;
     padding: 1em;
-    background-color: #FFE9F3;;
-    border-color: #ff9f76;
+    background-color: #FFE9F3;
     border-radius: 1em;
   }
 
 .booking input:hover {
-    background-color: #ffe5db;
-  }
-
-.booking input[type=submit] {
-    background-color: #ffffff;
-    border: 0px;
+    background-color: #D0D2D6;
   }
 
 .submit {
     width: 100%;
-    color:#fc692a;
+    color: #272722;
+    background-color: #fff;
     border: 1px solid #ff9f76;
     border-radius: 0.5em;
     padding: 5px;
   }
 
 .submit:hover {
-    background-color: #ffd1d2;
-    color:#2E221E;
+    background-color: #ff9f76;
+    color:#272722;
   }
 
 /* Styling <img> element for yoga instructor avatars */
 .instructors img {
     width: 250px;
     height: 250px;
-    border: 1px solid;
     border-radius: 125px;
   }
 
@@ -404,8 +399,8 @@ iframe {
     margin: 10px 10px;
     float:right;
     font-weight: 700;
-    color:#000000;
-    background-color: #ffd2e6;
+    color:#7A6D5B;
+    background-color: #FFD9EA;
   }
 
 .gallery-row {
