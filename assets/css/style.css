@@ -150,7 +150,11 @@ label {
 .justify {
     text-align: justify;
   }
-  
+
+#learn .container {
+  border-radius: 2%;
+}
+
 /* Stylink "thank you" and "404" page */
 .thankyou-caption {
     width: 50%;
@@ -286,8 +290,13 @@ th {
 iframe {
     width: 100%;
     height: 15em;
-    display: inline-block;
+    display: block;
   }
+
+.youtube {
+  height: 30em;
+  display: block;
+}
 
 /* Styling Footer section / social media icons / Font-Awesome icons */
 .footer {
