@@ -56,7 +56,9 @@ a:hover {
 }
 
 /* Styling Call-to-action button in the Carusel caption and site body */
-.button-cta-cover {
+.button-cta-caption {
+    position: relative;
+    top: 50%;
     font-size: 1.5em;
     padding: 10px 10px;
     margin: 10px 10px;
@@ -66,7 +68,7 @@ a:hover {
     background-color: #ffd2e6;
   }
 
-.button-cta-cover:hover {
+.button-cta-caption:hover {
     background-color: #ff9f76;
   }
 
@@ -122,37 +124,28 @@ label {
     background: url(../../assets/img/cover3.webp)  center / cover;
   }
 
-.carousel-caption {
-    width: 50%;
-    position: absolute;
-    left: 70%;
-    top: 70%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: left; 
-    opacity: 0.9;
+.caption {
+    width: 100vw;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   }
 
-.carousel-caption h1 {
-    max-width: fit-content;
+.caption h1 {
+    position: relative;
+    top:50%;
     font-size: 5em;
     font-weight: 900;
-    background-color: #ffd4c2;
-    padding: 0 10px 0 10px;
-    text-align: center;
-    color: #2E221E
   }
 
-.carousel-caption p {
-    max-width: fit-content;
+.caption p {
+    position: relative;
+    top:50%;
     color: #ffffff;
     font-size: 2em;
     font-weight: 700;
     font-style: italic;
-    background-color: #2E221E;
-    padding: 10px 10px;
-    margin: 10px 10px;
-    float: right;
   }
 
 /* Styling containers, removing margins - to override margins for bootstrap containers and hr line dividers */
