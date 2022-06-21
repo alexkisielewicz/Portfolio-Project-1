@@ -137,14 +137,8 @@ label {
 /* Styling containers, removing margins - to override margins for bootstrap containers and hr line dividers */
 .pink {
     background-color:#FFE9F3;
-    border-radius: 2%;
   }
  
-.container-fluid {
-    padding: 0;
-    margin: 0;
-  }
-
 .center {
     text-align: center;
   }
@@ -344,7 +338,7 @@ iframe {
 /* Media queries - responsiveness */
   @media (max-width: 768px) {
   
-  .container,.booking {
+.booking {
     width: 100%;
   }
 
