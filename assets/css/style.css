@@ -69,23 +69,14 @@ a:hover {
     border: 0;
   }
 
-.button-cta-caption:hover {
-    background-color: #FFD9EA;
-  }
 
-.button-cta-main {
-    font-size: 1.25em;
-    padding: 10px 10px;
-    width: 20%;
-    text-align: center;
-    font-weight: 900;
-    color: #000000;
-    background-color: #ffd2e6;
-  }
 
-.button-cta-main:hover {
-    background-color: #ff9f76;
-  }  
+.button-cta:hover,
+.button-cta:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
 
 /* Styling basic elements and adding classes to position site elements */
 h2, h3 {
