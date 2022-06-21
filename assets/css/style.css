@@ -121,6 +121,7 @@ label {
     top:50%;
     font-size: 5em;
     font-weight: 900;
+    text-shadow: 1px 5px 5px #000000;
   }
 
 .caption p {
@@ -130,6 +131,7 @@ label {
     font-size: 2em;
     font-weight: 700;
     font-style: italic;
+    text-shadow: 1px 5px 5px #000000;
   }
 
 /* Styling containers, removing margins - to override margins for bootstrap containers and hr line dividers */
@@ -154,28 +156,7 @@ label {
 .justify {
     text-align: justify;
   }
-
-.level-basic {
-    background: url(../../assets/img/basic.webp)  center / cover;
-    margin:2em;
-    max-width: 600px;
-    height: 400px;
-    border-radius: 4%;
-    box-shadow: 10px 10px 5px #D0D2D6;
-    text-align: center;
-  }
-
-.level-advanced {
-    background: url(../../assets/img/advanced.webp)  center / cover;
-    margin:2em;
-    max-width: 600px;
-    height: 400px;
-    border-radius: 4%;
-    box-shadow: 10px 10px 5px #D0D2D6;
-    text-align: center;
-  }
-
-
+  
 /* Stylink "thank you" and "404" page */
 .thankyou-caption {
     width: 50%;
