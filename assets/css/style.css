@@ -5,7 +5,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.25em;
     font-weight: 400;
-    color: #2E221E;
+    color: #272722;
     background-color: #ffffff;
   }
 
@@ -149,8 +149,9 @@ label {
   }
 
 /* Styling containers, removing margins - to override margins for bootstrap containers and hr line dividers */
-.white {
-    background-color: #ffffff;
+.pink {
+    background-color:#FFE9F3;
+    border-radius: 2%;
   }
 
 .container-fluid {
@@ -229,7 +230,7 @@ th {
     margin: 1em auto 1em auto;
     width: 40%;
     padding: 1em;
-    background-color: #ffffff;
+    background-color: #FFE9F3;;
     border-color: #ff9f76;
     border-radius: 1em;
   }
@@ -314,7 +315,7 @@ iframe {
 
 /* Styling Footer section and social media icons */
 .footer {
-    color:brown;
+    color: #7A6D5B;
   }
 
 .icons {
@@ -323,12 +324,11 @@ iframe {
   }
 
 .icons-social  {
-    color: brown;
     font-size: 1.5em;
   }
 
 .icons-social i {
-    color: brown;
+    
     font-size: 1.5em;
     padding: 5px;
   }
