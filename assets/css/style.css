@@ -69,13 +69,9 @@ a:hover {
     border: 0;
   }
 
-
-
-.button-cta:hover,
-.button-cta:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  transform: translateY(-0.25em);
-}
+.button-cta:hover {
+    background-color: #FFD9EA;
+  }
 
 
 /* Styling basic elements and adding classes to position site elements */
@@ -94,10 +90,6 @@ label {
 .user-login {
     float: right;
     margin-right: 1.5em; 
-  }
-
-.learn-more {
-    float: right;
   }
 
 /* 3 id's for carusel cover images and it's caption */
