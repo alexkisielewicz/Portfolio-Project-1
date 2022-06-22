@@ -190,33 +190,27 @@ label {
 
 /* Stylink "thank you" and "404" page */
 .thankyou-caption {
-    width: 50%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   }
 
-.thankyou-caption h1 {
-    max-width: fit-content;
+  .thankyou-caption h1 {
+    position: relative;
+    top: 20%;
     font-size: 5em;
     font-weight: 900;
-    background-color: #ffd4c2;
-    padding: 0 10px 0 10px;
-    text-align: left;
-    color:#2E221E;
   }
 
-.thankyou-caption p {
-    max-width: fit-content;
-    color: #ffffff;
+.thankyou-caption p {  
+  position: relative;
+    top:20%;
+    margin: auto;
+    color: #ff9f76;
+    background-color: #FFE9F3;
     font-size: 2em;
     font-weight: 700;
-    font-style: italic;
-    background-color: #2E221E;
-    padding: 10px 10px;
-    margin: 10px 10px;
   }
 
 /* Table from Timetable section */
