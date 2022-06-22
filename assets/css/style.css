@@ -1,5 +1,5 @@
 /* Google fonts link */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,800;0,900;1,100;1,200;1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,800;0,900;1,100;1,200;1,700&display=swap'); 
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -121,7 +121,6 @@ label {
     top:50%;
     font-size: 5em;
     font-weight: 900;
-    text-shadow: 1px 5px 5px #000000;
   }
 
 .caption p {
@@ -130,8 +129,6 @@ label {
     color: #ffffff;
     font-size: 2em;
     font-weight: 700;
-    font-style: italic;
-    text-shadow: 1px 5px 5px #000000;
   }
 
 /* Styling containers, removing margins - to override margins for bootstrap containers and hr line dividers */
