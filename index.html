@@ -59,44 +59,46 @@
 <!-- Bootstrap Navbar END -->
 
 <!-- Bootstrap Carousel START. Style of captions and it's positioning has been customized -->
-<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" class="toggle-icons" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<section>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" class="toggle-icons" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="cover-photo1">
+        <div class="caption">
+            <h1>Welcome to Yoga Studio!</h1>
+            <p>You are in the right place to start your joga journey.</p>
+            <button onclick="window.location.href='#about';" class="button-cta">Start now!</button>
+        </div>
+      </div>
+      <div class="carousel-item" id="cover-photo2">
+        <div class="caption">
+            <h1>Practice with us</h1>
+            <p>Learn best techniques from our experienced instructors.</p>
+            <button onclick="window.location.href='#learn';" class="button-cta">Learn with us!</button>
+        </div>
+      </div>
+      <div class="carousel-item" id="cover-photo3">
+        <div class="caption">
+            <h1>Group classes</h1>
+            <p>Beginner or advanced? We have classes for you.</p>
+            <button onclick="window.location.href='#booking';" class="button-cta">Book now!</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" id="cover-photo1">
-      <div class="caption">
-          <h1>Welcome to Yoga Studio!</h1>
-          <p>You are in the right place to start your joga journey.</p>
-          <button onclick="window.location.href='#about';" class="button-cta">Start now!</button>
-      </div>
-    </div>
-    <div class="carousel-item" id="cover-photo2">
-      <div class="caption">
-          <h1>Practice with us</h1>
-          <p>Learn best techniques from our experienced instructors.</p>
-          <button onclick="window.location.href='#learn';" class="button-cta">Learn with us!</button>
-      </div>
-    </div>
-    <div class="carousel-item" id="cover-photo3">
-      <div class="caption">
-          <h1>Group classes</h1>
-          <p>Beginner or advanced? We have classes for you.</p>
-          <button onclick="window.location.href='#booking';" class="button-cta">Book now!</button>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+</section>
 <!-- Bootstrap Carusel END -->
 
 <!-- About section START -->
@@ -215,7 +217,6 @@
         <h3 class="text-center py-4">Which style of yoga is best for you?</h3>  
 <!-- Accordion feature START (customised bootstrap feature)-->          
         <div class="accordion accordion-flush">
-          
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -325,10 +326,8 @@
         <img src="assets/img/advanced.webp" width="450" height="252" alt="learn advanced poses">
         <h3 class="center">Advanced Poses</h3>
       </div>
-      
       </div>
     </div>
-  
 </section>
 <!-- Learn section END -->
 
@@ -424,8 +423,7 @@
       <iframe id="iframe" class="youtube" width="560" height="315" src="https://www.youtube.com/embed/A4ViwsLKoSY" title="YouTube video player" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
   </div>
 </section>
-<!-- Youtube cideo section END -->
-
+<!-- Youtube video section END -->
 
 <!-- Booking section START -->
 <section id="booking">
@@ -538,18 +536,17 @@
   </p>
 </footer>
 <!-- Footer END -->
+
 <!-- Bootstrap JavaScript START -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <!-- Bootstrap JavaScript FINISH -->
 
 <!-- TODO
-Fix cover photos 
 Headers size
 Format the code
 Validate HTML
 Validate CSS
 Check semantic markup structure
-
 
 
 Power yoga - https://www.healthline.com/health/what-is-power-yoga
