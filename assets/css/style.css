@@ -16,10 +16,15 @@ a {
   }
 
 a:hover {
-    color: #7A6D5B;
+    color: orangered;
     text-decoration: underline;
     text-decoration-color: #ff9f76;
   }
+
+input:focus {
+  outline-color: #ff9f76;
+  border: 1px solid #ff9f76;
+}
 
 /* Customising Bootstrap Navbar */  
 .navbar {
@@ -31,6 +36,11 @@ a:hover {
   color: #ff9f76;
   font-weight: 500;
   text-decoration: none;
+}
+
+.navbar a:focus {
+  color: #272722;
+  background-color: #ff9f76;
 }
 
 .navbar-toggler {
@@ -150,6 +160,32 @@ label {
 
 #learn .container {
   border-radius: 2%;
+  box-shadow: 10px 10px 5px #D0D2D6;
+  padding: 0 50px;
+}
+
+#learn button:focus {
+  background-color: #fff;
+  color: #272722;
+  outline: none;
+}
+
+.accordion-header button {
+  color: #272722;
+  background-color: #FFE9F3;
+  font-weight: 500;
+  width: 100%;
+}
+
+.accordion-item {
+  background-color:  #FFE9F3;
+}
+
+.accordion-body {
+  margin: 20px;
+  background: #FFE9F3;
+  color: #333333;
+  text-align: justify;
 }
 
 /* Stylink "thank you" and "404" page */
