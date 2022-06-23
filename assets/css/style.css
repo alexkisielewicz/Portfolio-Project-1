@@ -385,7 +385,6 @@ iframe {
 		padding: 0px;
 	}
 
-
 	p {
 		padding: 10px;
 		text-align: left;
@@ -428,10 +427,10 @@ iframe {
 		padding: 0px;
 	}
 
-	#timetable {
+/*	#timetable {
 		display: none;
 	}
-
+*/
 	#cover-photo1 {
 		height: 50vh;
 		background: url(../../assets/img/cover1_mobile.webp) center / cover;
