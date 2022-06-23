@@ -45,7 +45,7 @@ input:focus {
 
 .navbar-toggler {
 	background-color: #ff9f76;
-	color: #ffffff;
+	font-size: medium;
 }
 
 .navbar-nav {
@@ -66,7 +66,7 @@ input:focus {
 	background-color: #ff9f76;
 }
 
-/* Styling Call-to-action button in the Carusel caption and site body */
+/* Styling Call-to-action button in the Carousel caption and site body */
 .button-cta {
 	position: relative;
 	top: 50%;
@@ -98,12 +98,7 @@ label {
 	margin: 0 20px;
 }
 
-.user-login {
-	float: right;
-	margin-right: 1.5em;
-}
-
-/* 3 id's for carusel cover images and it's caption */
+/* 3 id's for carousel cover images and it's caption */
 #cover-photo1 {
 	height: 100vh;
 	background: url(../../assets/img/cover1.webp) center / cover;
@@ -165,12 +160,6 @@ label {
 	padding: 0 50px;
 }
 
-#learn button:focus {
-	background-color: #fff;
-	color: #272722;
-	outline: none;
-}
-
 .accordion-header button {
 	color: #272722;
 	background-color: #FFE9F3;
@@ -186,7 +175,7 @@ label {
 	margin: 20px;
 	background: #FFE9F3;
 	color: #333333;
-	text-align: justify;
+	text-align: left;
 }
 
 /* Stylink "thank you" and "404" page */
@@ -267,6 +256,10 @@ th {
 }
 
 /* Styling <img> element for yoga instructor avatars */
+.instructors {
+	width: 100%;
+}
+
 .instructors img {
 	width: 250px;
 	height: 250px;
@@ -310,7 +303,8 @@ th {
 	font-size: x-large;
 	font-style: italic;
 	font-weight: 500;
-	text-align: justify;
+	text-align: left;
+	margin: 20px;
 }
 
 
@@ -371,59 +365,117 @@ iframe {
 	color: orangered;
 	text-decoration: underline;
 }
-
+ 
 /* Media queries - responsiveness */
-@media (max-width: 768px) {
+
+/* X-small devices, phones in portrait mode 675px*/
+@media (max-width: 575.98px) {
+
+	body {
+		font-size: 1em;
+	}
+
+	.container-fluid {
+		width: 100%;
+		margin: 0;
+		padding: 0px;
+	}
+
+
+	p {
+		padding: 10px;
+		text-align: left;
+	}
+
+	.accordion-item p {
+		text-align: left;
+	}
+
+	.container {
+		width: 100%;
+		margin: 0;
+		padding: 0px;
+	}
 
 	.booking {
+		margin: auto;
+		width: 100%;
+		background-color: #FFE9F3;
+		border-radius: 1em;
+		box-shadow: none;
+	}
+
+	.row {
 		width: 100%;
 	}
 
-	.carousel {
+	.col {
+		display: block;
+		width: 100%;
+	}
+
+	#instructors p {
+		text-align: center;
+	}
+
+	#learn .container {
+		border-radius: 0;
+		box-shadow: none;
+		padding: 0px;
+	}
+
+	#timetable {
 		display: none;
 	}
 
-	.carousel-caption {
-		width: 20%;
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		-webkit-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-		text-align: left;
-		opacity: 0.9;
+	#cover-photo1 {
+		height: 50vh;
+		background: url(../../assets/img/cover1_mobile.webp) center / cover;
 	}
-
-	.carousel-caption h1 {
-		max-width: 100%;
-		font-size: 1em;
-		font-weight: 900;
-		background-color: #ffd4c2;
-		padding: 0 10px 0 10px;
-		text-align: center;
-		color: #2E221E;
+	
+	#cover-photo2 {
+		height: 50vh;
+		background: url(../../assets/img/cover2_mobile.webp) center / cover;
 	}
-
-	.carousel-caption p {
-		max-width: 100%;
+	
+	#cover-photo3 {
+		height: 50vh;
+		background: url(../../assets/img/cover3_mobile.webp) center / cover;
+	}
+	
+	.caption {
+		width: 100vw;
+		height: 50vh;
 		color: #ffffff;
-		text-align: left;
-		font-size: 1em;
-		font-weight: 700;
-		font-style: italic;
-		background-color: #2E221E;
-		padding: 10px 10px;
-		margin: 10px 10px;
-		float: left;
+		text-align: center;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+	}
+	
+	.caption h1 {
+		top: 30%;
+		text-align: center;
+		font-size: 3em;
+		font-weight: 600;
+	}
+	
+	.caption p {
+		display: none;
 	}
 
 	.button-cta {
-		font-size: 0.75em;
+		position: relative;
+		top: 50%;
+		font-size: 1.5em;
 		padding: 10px 10px;
 		margin: 10px 10px;
-		float: right;
-		font-weight: 700;
-		color: #7A6D5B;
+		text-align: center;
+		font-weight: 900;
+		color: #272722;
+		background-color: #ff9f76;
+		border: 0;
+	}
+	
+	.button-cta:hover {
 		background-color: #FFD9EA;
 	}
 
@@ -448,4 +500,44 @@ iframe {
 		flex: 100%;
 		max-width: 100%;
 	}
+
+	.button-cta {
+		position: relative;
+		top: 50%;
+		font-size: 1.5em;
+		padding: 10px 10px;
+		margin: 10px 10px;
+		text-align: center;
+		font-weight: 900;
+		color: #272722;
+		background-color: #ff9f76;
+		border: 0;
+	}
+	
+	.button-cta:hover {
+		background-color: #FFD9EA;
+	}
+
+	#gallery img {
+		width: 100%;	
+	}
+
+
+	.footer div,p {
+		display: block;
+		text-align: center;
+	}
 }
+
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... }
