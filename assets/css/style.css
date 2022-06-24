@@ -454,7 +454,11 @@ iframe {
 		display: none;
 	}
 
-	.thankyou-caption h1,p {
+	.thankyou-caption h1 {
+		font-size: 2em;
+	}
+
+	.thankyou-caption p {
 		font-size: 1em;
 	}
 
@@ -508,6 +512,14 @@ iframe {
 		padding: 10px;
 		text-align: left;
 	}	
+
+	.thankyou-caption h1 {
+		font-size: 2em;
+	}
+
+	.thankyou-caption p {
+		font-size: 1em;
+	}
 
 	.accordion-item p {
 		text-align: left;
