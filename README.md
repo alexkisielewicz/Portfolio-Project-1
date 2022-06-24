@@ -91,6 +91,8 @@ To achieve the strategy goals I implemented following features:
     -   navigate easily through the page, 
     -   check classes timetable,
     -   check opening times,  
+    -   book yoga classes, 
+    -   watch on-line yoga lessons,  
     -   contact Yoga Studio,
     -   get directions to Yoga Studio
     -   see the pictures from yoga sessions. 
@@ -297,7 +299,7 @@ Result for thankyou.html page
 
 ###   CSS
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](docs/validator_css.png)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Result: No Error Found.
 
 ![CSS Validator](docs/validator_css.png)
 
@@ -317,7 +319,8 @@ TEXT
     
 The project was deployed to GitHub Pages using the following steps: 
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/alexkisielewicz/Portfolio-Project-1)
+1. Log in to GitHub and locate the [GitHub Repository 
+Portfolio-Project-1](https://github.com/alexkisielewicz/Portfolio-Project-1)
 2. Locate the "Settings" Button on the menu.
 3. Scroll down the Settings page until you locate the "Pages" in "Code and automation" section.
 4. Under "Source", click the dropdown called "Select branch:" and select "Main", click the dropdown called "Select folder" and select "/root".
@@ -331,16 +334,15 @@ The project was deployed to GitHub Pages using the following steps:
 
 ##  Code
 
--   [Bootstrap5.2.0](https://getbootstrap.com/) - Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Additional features used/implemented and customised: Navbar, Carousel, Acordion, shortcode for creating the box model and spacing elements.  
+-   [Bootstrap5.2.0](https://getbootstrap.com/) - Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Additional features used/implemented and customised: Navbar, Carousel, Acordion, shortcode for aligning and spacing elements.  
 -   [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation) - phone number pattern validation code.
--   [W3C Schools](https://www.w3schools.com/howto/howto_js_image_grid.asp) - tutorial followed to create responsive image grid gallery. 
--   Code Institute README.md template has been used to create this document.  
--   Mentor Reuben Ferrante for linear gradient background code used on website cover photo element.  
+-   [W3C Schools](https://www.w3schools.com/howto/howto_js_image_grid.asp) - inspiration to create responsive image grid gallery. 
+-   Code Institute README.md template has been used to create this document. 
 
 ##  Media
 
 -   All images used were sourced from free stock photos [Pexels.com](https://pexels.com/) - Photographer [Elina Sazonova](https://elinasazonova.com/)
--   Descriptions of yoga styles were sourced from below websites: 
+-   Descriptions of yoga styles were sourced from following websites: 
     * [Power yoga](https://www.healthline.com/health/what-is-power-yoga)
     * [Flow yoga](https://themerrymakersisters.com/what-is-flow-yoga)
     * [Hatha yoga](https://www.healthline.com/health/exercise-fitness/hatha-vs-vinyasa#about-hatha-yoga)
