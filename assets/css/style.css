@@ -364,7 +364,7 @@ iframe {
 	color: orangered;
 	text-decoration: underline;
 }
- 
+
 /* Media queries - responsiveness */
 
 /* X-small devices, phones in portrait mode 675px*/
@@ -422,17 +422,17 @@ iframe {
 		height: 50vh;
 		background: url(../../assets/img/cover1_mobile.webp) center / cover;
 	}
-	
+
 	#cover-photo2 {
 		height: 50vh;
 		background: url(../../assets/img/cover2_mobile.webp) center / cover;
 	}
-	
+
 	#cover-photo3 {
 		height: 50vh;
 		background: url(../../assets/img/cover3_mobile.webp) center / cover;
 	}
-	
+
 	.caption {
 		width: 100vw;
 		height: 50vh;
@@ -440,21 +440,21 @@ iframe {
 		text-align: center;
 		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 	}
-	
+
 	.caption h1 {
 		top: 30%;
 		text-align: center;
 		font-size: 2em;
 		font-weight: 600;
 	}
-	
+
 	.button-cta {
 		position: relative;
 		top: 70%;
 		font-size: 1em;
-		
+
 	}
-	
+
 	.caption button,
 	.caption p {
 		display: none;
@@ -475,7 +475,8 @@ iframe {
 		height: auto;
 	}
 
-	.footer div,p {
+	.footer div,
+	p {
 		display: block;
 		text-align: center;
 	}
@@ -492,7 +493,7 @@ iframe {
 }
 
 @media screen and (max-width: 600px) {
-	
+
 	.gallery-row {
 		width: 100%;
 	}
@@ -504,11 +505,11 @@ iframe {
 	}
 
 	#gallery img {
-		width: 100%;	
+		width: 100%;
 	}
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767.98px) { 
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
 
 	body {
 		font-size: 1em;
@@ -517,7 +518,7 @@ iframe {
 	p {
 		padding: 10px;
 		text-align: left;
-	}	
+	}
 
 	.thankyou-caption h1 {
 		font-size: 2em;
@@ -556,17 +557,17 @@ iframe {
 		height: 60vh;
 		background: url(../../assets/img/cover1_mobile.webp) center / cover;
 	}
-	
+
 	#cover-photo2 {
 		height: 60vh;
 		background: url(../../assets/img/cover2_mobile.webp) center / cover;
 	}
-	
+
 	#cover-photo3 {
 		height: 60vh;
 		background: url(../../assets/img/cover3_mobile.webp) center / cover;
 	}
-	
+
 	.caption {
 		width: 100vw;
 		height: 60vh;
@@ -574,7 +575,7 @@ iframe {
 		text-align: center;
 		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 	}
-	
+
 	.caption h1 {
 		top: 40%;
 		text-align: center;
@@ -590,20 +591,21 @@ iframe {
 		font-size: 1.5em;
 	}
 
-	.footer div,p {
+	.footer div,
+	p {
 		display: block;
 		text-align: center;
 	}
- }
+}
 
 
 /* Medium devices (tablets, less than 992px) */
-@media only screen and (min-width: 768px) and (max-width: 991.98px) { 
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
 
 	p {
 		padding: 10px;
 		text-align: left;
-	}	
+	}
 
 	.thankyou-caption h1 {
 		font-size: 2em;
@@ -634,17 +636,17 @@ iframe {
 		height: 60vh;
 		background: url(../../assets/img/cover1_mobile.webp) center / cover;
 	}
-	
+
 	#cover-photo2 {
 		height: 60vh;
 		background: url(../../assets/img/cover2_mobile.webp) center / cover;
 	}
-	
+
 	#cover-photo3 {
 		height: 60vh;
 		background: url(../../assets/img/cover3_mobile.webp) center / cover;
 	}
-	
+
 	.caption {
 		width: 100vw;
 		height: 60vh;
@@ -652,7 +654,7 @@ iframe {
 		text-align: center;
 		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 	}
-	
+
 	.caption h1 {
 		top: 40%;
 		text-align: center;
@@ -665,19 +667,19 @@ iframe {
 	}
 
 	#carousel button {
-		position: ;
+		position: relative;
 		top: 50%;
 	}
 
-	.footer div,p {
+	.footer div,
+	p {
 		display: block;
 		text-align: center;
 	}
-
- }
+}
 
 /* Large devices (desktops, less than 1200px) */
-@media only screen and (min-width: 992px)  and (max-width: 1199.98px) { 
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
 
 	.caption {
 		width: 100vw;
@@ -686,7 +688,7 @@ iframe {
 		text-align: center;
 		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 	}
-	
+
 	.caption h1 {
 		top: 40%;
 		text-align: center;
@@ -702,6 +704,4 @@ iframe {
 		position: relative;
 		top: 70%;
 	}
-	
-
- }
+}
