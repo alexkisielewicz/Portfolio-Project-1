@@ -454,7 +454,8 @@ iframe {
 		font-size: 1em;
 		
 	}
-
+	
+	.caption button,
 	.caption p {
 		display: none;
 	}
