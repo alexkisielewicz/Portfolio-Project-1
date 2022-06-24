@@ -466,7 +466,14 @@ iframe {
 	}
 
 	.caption button {
+		position: relative;
 		top: 65%;
+	}
+
+	.button-cta {
+		position: relative;
+		top: 65%;
+
 	}
 
 	.gallery-row {
