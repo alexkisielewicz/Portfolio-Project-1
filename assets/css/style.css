@@ -455,10 +455,9 @@ iframe {
 	}
 	
 	.caption h1 {
-		position: relative;
 		top: 30%;
 		text-align: center;
-		font-size: 1.5em;
+		font-size: 2em;
 		font-weight: 600;
 	}
 	
@@ -467,8 +466,8 @@ iframe {
 	}
 
 	.button-cta {
-		bottom: 20%;
-		font-size: 1em;
+		top: 70%;
+		font-size: 1.5em;
 		padding: 5px 5px;
 		margin: 5px 5px;
 		text-align: center;
@@ -508,23 +507,6 @@ iframe {
 		-ms-flex: 100%;
 		flex: 100%;
 		max-width: 100%;
-	}
-
-	.button-cta {
-		position: relative;
-		top: 50%;
-		font-size: 1.5em;
-		padding: 10px 10px;
-		margin: 10px 10px;
-		text-align: center;
-		font-weight: 900;
-		color: #272722;
-		background-color: #ff9f76;
-		border: 0;
-	}
-	
-	.button-cta:hover {
-		background-color: #FFD9EA;
 	}
 
 	#gallery img {
