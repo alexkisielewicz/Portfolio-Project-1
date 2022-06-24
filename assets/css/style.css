@@ -465,20 +465,8 @@ iframe {
 		display: none;
 	}
 
-	.button-cta {
-		top: 70%;
-		font-size: 1.5em;
-		padding: 5px 5px;
-		margin: 5px 5px;
-		text-align: center;
-		font-weight: 600;
-		color: #272722;
-		background-color: #ff9f76;
-		border: 0;
-	}
-	
-	.button-cta:hover {
-		background-color: #FFD9EA;
+	.caption button {
+		top: 65%;
 	}
 
 	.gallery-row {
