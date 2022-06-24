@@ -182,14 +182,22 @@ label {
 	width: 100vw;
 	height: 100vh;
 	text-align: center;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+	background: url(../../assets/img/thankyou.webp) center / cover;
+}
+
+.error-caption {
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+	background: url(../../assets/img/notfound.webp) center / cover;
 }
 
 .thankyou-caption h1 {
 	position: relative;
 	top: 20%;
-	font-size: 5em;
+	font-size: 2em;
 	font-weight: 900;
+	background-color: #ff9f76;
 }
 
 .thankyou-caption p {
@@ -197,10 +205,29 @@ label {
 	top: 20%;
 	margin: auto;
 	color: #ff9f76;
-	background-color: #FFE9F3;
-	font-size: 2em;
+	background-color: #333;
+	font-size: 1em;
 	font-weight: 700;
 }
+
+.error-caption h1 {
+	position: relative;
+	top: 20%;
+	font-size: 2em;
+	font-weight: 900;
+	background-color: #ff9f76;
+}
+
+.error-caption p {
+	position: relative;
+	top: 20%;
+	margin: auto;
+	color: #ff9f76;
+	background-color: #333;
+	font-size: 1em;
+	font-weight: 700;
+}
+
 
 /* Table from Timetable section */
 table {
