@@ -639,6 +639,10 @@ iframe {
 		top: 60%;
 	}
 
+	.thankyou-caption {
+		font-size: 1em;
+	}
+
 	.footer div,p {
 		display: block;
 		text-align: center;
