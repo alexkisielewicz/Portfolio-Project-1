@@ -461,10 +461,6 @@ iframe {
 		height: auto;
 	}
 
-	#timetable {
-		overflow: scroll;
-	}
-
 	.footer div,p {
 		display: block;
 		text-align: center;
@@ -521,6 +517,10 @@ iframe {
 		box-shadow: none;
 	}
 
+	.timetable {
+		width: 100%;
+	}
+
 	.row {
 		width: 100%;
 	}
@@ -566,11 +566,6 @@ iframe {
 
 	.caption p {
 		font-size: 1.5em;
-
-	}
-
-	#timetable {
-		overflow: scroll;
 	}
 
 	.footer div,p {
@@ -642,11 +637,6 @@ iframe {
 	.caption button {
 		position: relative;
 		top: 60%;
-
-	}
-
-	#timetable {
-		overflow: scroll;
 	}
 
 	.footer div,p {
@@ -656,20 +646,39 @@ iframe {
 
  }
 
+/* Large devices (desktops, less than 1200px) */
+@media only screen and (min-width: 992px)  and (max-width: 1199.98px) { 
+
+	.caption {
+		width: 100vw;
+		height: 100vh;
+		color: #ffffff;
+		text-align: center;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+	}
+	
+	.caption h1 {
+		top: 40%;
+		text-align: center;
+		font-size: 2.5em;
+		font-weight: 600;
+	}
+
+	.caption p {
+		font-size: 1.5em;
+	}
+
+	.caption button {
+		position: relative;
+		top: 70%;
+	}
+	
+
+ }
+
+/* X-Large devices (large desktops, less than 1400px 
+@media (max-width: 1399.98px) { 
 
 
-
-
-
-
-
-
-
-/*
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
-
-// X-Large devices (large desktops, less than 1400px)
-@media (max-width: 1399.98px) { ... }
-
+ }
 */
