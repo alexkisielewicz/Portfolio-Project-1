@@ -461,19 +461,11 @@ iframe {
 		font-weight: 600;
 	}
 	
-	.caption p {
+
+	.caption button,
+	.caption p
+	{
 		display: none;
-	}
-
-	.caption button {
-		position: relative;
-		top: 65%;
-	}
-
-	.button-cta {
-		position: relative;
-		top: 65%;
-
 	}
 
 	.gallery-row {
