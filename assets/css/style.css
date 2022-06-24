@@ -560,6 +560,15 @@ iframe {
 		font-weight: 600;
 	}
 
+	.caption button {
+		display: none;
+	}
+
+	.caption p {
+		font-size: 1.5em;
+
+	}
+
 	#timetable {
 		overflow: scroll;
 	}
@@ -624,6 +633,16 @@ iframe {
 		text-align: center;
 		font-size: 2em;
 		font-weight: 600;
+	}
+
+	.caption p {
+		font-size: 1em;
+	}
+
+	.caption button {
+		position: relative;
+		top: 60%;
+
 	}
 
 	#timetable {
