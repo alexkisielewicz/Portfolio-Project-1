@@ -448,9 +448,14 @@ iframe {
 		font-weight: 600;
 	}
 	
-	.caption button,
-	.caption p
-	{
+	.button-cta {
+		position: relative;
+		top: 45%;
+		font-size: 1em;
+		
+	}
+
+	.caption p {
 		display: none;
 	}
 
@@ -599,6 +604,14 @@ iframe {
 		text-align: left;
 	}	
 
+	.thankyou-caption h1 {
+		font-size: 2em;
+	}
+
+	.thankyou-caption p {
+		font-size: 1em;
+	}
+
 	.accordion-item p {
 		text-align: left;
 	}
@@ -650,9 +663,9 @@ iframe {
 		font-size: 1em;
 	}
 
-	.caption button {
-		position: relative;
-		top: 60%;
+	#carousel button {
+		position: ;
+		top: 50%;
 	}
 
 	.footer div,p {
