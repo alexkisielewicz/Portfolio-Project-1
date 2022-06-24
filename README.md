@@ -14,10 +14,10 @@ This is Yoga Studio website created as Portfolio Project #1 (HTML&CSS) for Diplo
 
 # Table of content 
 
-*   [Project](#Project)
-    *   [Strategy/Scope](#strategy-scope)
+*   [Project](#project)
+    *   [Strategy/Scope](#strategyscope)
     *   [Site owner goals](#site-owner-goals)
-    *   [Site user goals](#site-user-goals)
+    *   [Site user goals](#user-goals)
 *   [User Experience (UX)](#user-experience-ux)
     *   [Color Scheme](#colour-scheme)
     *   [Typography](#typography)
@@ -52,12 +52,22 @@ Yoga Studio website aims to provide essential information about the studio and i
 <br>
 To achieve the strategy goals I implemented following features:
 * simple website layout with a menu bar sticked to the top of the viewport for easy navigation,  
-* a carusel with caption images and call-to-action buttons forwarding user to relevant sections,
+* a carousel with caption images and call-to-action buttons forwarding user to relevant sections,
 * imformative "About" and "Learn" sections, 
 * multiple call-to-action buttons across the whole page,  
 * "Sign-in!" section with booking form providing feedback on submission,    
 * consistent images across the whole page to immerse the user in Site Owner's story. 
 <br>
+
+## Site owner goals
+
+- to promote Yoga Studio in the local area by offering in-studio classes and on-line by providing learning resources, 
+- to provide important information about Yoga Studio, such as: business background, offered classes, classes timetable, instructors silhouettes, contact information, address, opening times, social media profiles,  
+- to provide multimedia showing the studio,  
+- to provide booking form for the users allowing them to join the club and starting yoga activities,    
+- provide image gallery with photos from the studio to promote yoga and encourage new people to join, 
+- provide social meddia links to obtain new followers who become part of Yoga Studio community, 
+- to provide website that looks well across a range of devices (responsiveness).  
 
 ##  User goals
 
@@ -85,22 +95,11 @@ To achieve the strategy goals I implemented following features:
     -   get directions to Yoga Studio
     -   see the pictures from yoga sessions. 
 
-
-## Site owner goals
-
-- to promote Yoga Studio in the local area by offering in-studio classes and on-line by providing learning resources, 
-- to provide important information about Yoga Studio, such as: business background, offered classes, classes timetable, instructors silhouettes, contact information, address, opening times, social media profiles,  
-- to provide multimedia showing the studio,  
-- to provide booking form for the users allowing them to join the club and starting yoga activities,    
-- provide image gallery with photos from the studio to promote yoga and encourage new people to join, 
-- provide social meddia links to obtain new followers who become part of Yoga Studio community, 
-- to provide website that looks well across a range of devices (responsiveness).  
-
 <br>
 
 #   User Experience (UX)
 
-##  Color Scheme
+##  Colour Scheme
 
 Colour palette was selected using coolors.co generator. 
 For beast readability and clean look white colour was chosen for the bacgkround, "Black Chocolate #272722" for text. I chose "Light Salmon #FF9F76" colour for hover, buttons and navigation elements to stand out and delicate "Miami Pink #FFD9EA" for sections background. "French Bistre #7A6D5B" colour was used for text in the footer. "Light Gray #D0D2D6" was used for boxes shadow effect and form input hover.   
@@ -125,14 +124,15 @@ For beast readability and clean look white colour was chosen for the bacgkround,
 
 ### Wireframes - [View all wireframes - PDF file](https://github.com/alexkisielewicz/Portfolio-Project-1/tree/main/docs/yoga_studio_portfolio_project_1.pdf)
 
-![Wireframes](docs/wireframes.png)
 
-Page is designed in well known scrolling style that users like. It provides fast access to information and immerses user in the story. Navigation bar is always visible in the viewport, that reduces number of clicks to reach desirable content. Website consists of following sections: 
 
-## Carusel
-TEXT PLACEHOLDER
+Page is designed in well known scrolling page style that users like. It provides fast access to information and immerses user in the story. Navigation bar is always visible in the viewport, that reduces number of clicks to reach desirable content. Website consists of following sections: 
 
-![Carusel](docs/screenshot_carusel.png)
+## Carousel
+
+Carousel
+
+![Carousel](docs/screenshot_carousel.png)
 
 ## About
 TEXT PLACEHOLDER
@@ -201,10 +201,10 @@ TEXT PLACEHOLDER
 
 - [Bootstrap 5.2.0:](https://getbootstrap.com) - Bootstrap was used to create website grid and to make it responsive. Other features used and customised: 
     * Navbar,
-    * Carusel,
+    * Carousel,
     * Acordion,
     * Shortcode for spacing elements (eg. px-5)
-- [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+- [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create the [wireframes](#structure) during the design process.
 
 - [Coolors.co](https://coolors.co/) - was used to create color palette. 
 
@@ -226,9 +226,11 @@ TEXT PLACEHOLDER
 
 - [GitHub](https://github.com/) - GitHub is used to store the projects code after being pushed from Git.
 
-- [Photoshop](https://www.adobe.com/ie/products/photoshop.html) - Photoshop was used to resize the pictures. 
+- [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html) - Photoshop was used to resize the pictures. 
 
 - [Adobe Express](https://express.adobe.com/) - online service used to create logo. 
+
+- [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) - used to analyse contrast. 
 
 - [BD_sizer](https://bd-sizer.en.softonic.com/) - used for resizeing pictures in the gallery.
 
@@ -246,6 +248,9 @@ TEXT PLACEHOLDER
 
 - [Lighthouse](https://developers.google.com/web) - Google webdev tool used for performance testing. 
 
+- [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) - used to validate accessibility. 
+
+
 <br>
 
 #    Testing
@@ -257,6 +262,10 @@ TEXT PLACEHOLDER
 ![Contrast 1](docs/contrast1.png) 
 
 ![Contrast 2](docs/contrast2.png) 
+
+
+WAVE Web Accessibility Evaluation Tool https://wave.webaim.org/
+Missing alternative text
 
 ![](docs/validator_wave.png)
 
@@ -277,7 +286,7 @@ TEXT PLACEHOLDER
 
     index.html - after fixes, final result: 
 
-![Final test](docs/validator_html_final.png)
+![](docs/validator_html_final.png)
 
 Result for 404.html page
 ![404.html](docs/validator_404_thankyou.png)
@@ -321,7 +330,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 ##  Code
 
--   [Bootstrap5.2.0](https://getbootstrap.com/) - Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Additional features used/implemented and customised: Navbar, Carusel, Acordion, shortcode for creating the box model and spacing elements.  
+-   [Bootstrap5.2.0](https://getbootstrap.com/) - Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Additional features used/implemented and customised: Navbar, Carousel, Acordion, shortcode for creating the box model and spacing elements.  
 -   [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation) - phone number pattern validation code.
 -   [W3C Schools](https://www.w3schools.com/howto/howto_js_image_grid.asp) - tutorial followed to create responsive image grid gallery. 
 -   Code Institute README.md template has been used to create this document.  
