@@ -26,7 +26,7 @@ This is Yoga Studio website created as Portfolio Project #1 (HTML&CSS) for Diplo
     *   [Languages used](#languages-used)
     *   [Frameworks, libraries & software used](#languages-used)
 *   [Testing](#testing)
-    *   [Accesibility](#accesibility)
+    *   [Accessibility](#accessibility)
     *   [Performance](#performance)
     *   [Validation](#validation)
     *   [HTML](#html)
@@ -255,7 +255,7 @@ TEXT PLACEHOLDER
 
 #    Testing
 
-##   Accesibility]
+##   Accessibility
 
 TEXT PLACEHOLDER 
 
@@ -264,27 +264,28 @@ TEXT PLACEHOLDER
 ![Contrast 2](docs/contrast2.png) 
 
 
-WAVE Web Accessibility Evaluation Tool https://wave.webaim.org/
-Missing alternative text
+[WAVE](https://wave.webaim.org/) Web Accessibility Evaluation Tool was used to check accessibility. It reported one error "Missing alternative text". It is related to carousel background photo linked via CSS stylesheet. Alternative text cannot be set in this case. Four alerts are minor and related to justified text in the paragraphs. 
 
 ![](docs/validator_wave.png)
 
 ##   Performance
 
- [Lighthouse](https://developers.google.com/web) - Google webdev tool used for performance testing. 
+ [Lighthouse](https://developers.google.com/web) - Google webdev tool used for performance testing. <br>
+
 ![Lighthouse](docs/lighthouse.png)
 
 ##   Validation
 
 ###   HTML
 
-- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+- [W3C Markup Validator](https://validator.w3.org/nu/) 
 
-    index.html first result: 
+index.html - first result found 2 errors that refer to unclosed element and missing open element. <br>
+Six warnings refer to lack of heading in sections such as Gallery, YouTube video or Google Map and also recommend using h2-h6 headers instead of h1 used in Carousel caption.  
 
 ![First test](docs/validator_html_errors.png)
 
-    index.html - after fixes, final result: 
+index.html - after error fixes, final result: ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Falexkisielewicz.github.io%2FPortfolio-Project-1%2F)
 
 ![](docs/validator_html_final.png)
 
