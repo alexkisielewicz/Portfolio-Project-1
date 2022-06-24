@@ -2,11 +2,11 @@
 
 ### Developer: Aleksander Kisielewicz
 
-![Am I Responsive](docs/screenshot_carusel.png)
+![Am I Responsive](docs/screenshot_mockup.png)
 
 [View live website here.](https://alexkisielewicz.github.io/Portfolio-Project-1/)
 
-[View full page screenshot](docs/screencapture-portfolio-project-1.pngdocs/screencapture-portfolio-project-1.png)
+[View full page screenshot](docs/screencapture-portfolio-project-1.png)
 
 This is Yoga Studio website created as Portfolio Project #1 (HTML&CSS) for Diploma in Full Stack Software Development at [Code Institute](https://www.codeinstitute.net). It is responsive across a range of devices and it is easy to navigate for site users. 
 
@@ -42,8 +42,8 @@ This is Yoga Studio website created as Portfolio Project #1 (HTML&CSS) for Diplo
 
 
 
-#   [Project](#Project)
-##  [Strategy/Scope](#strategy-scope)
+#   Project
+##  Strategy/Scope
 
 Yoga Studio website aims to provide essential information about the studio and its offer to the user in a clear and visually pleasing way. It targets people who are looking for information about yoga and want to join local club or start learning yoga on-line. 
 <br>
@@ -59,7 +59,7 @@ To achieve the strategy goals I implemented following features:
 * consistent images across the whole page to immerse the user in Site Owner's story. 
 <br>
 
-##  [User goals](#user-stories)
+##  User goals
 
 - as a new user I want to:
     - navigate easily through the page, 
@@ -75,7 +75,7 @@ To achieve the strategy goals I implemented following features:
     - check address, get directions to Studio, 
     - follow Yoga Studio on social media, 
 
-<br>
+    <br>
 
 - as a returning user I want to:
     -   navigate easily through the page, 
@@ -86,7 +86,7 @@ To achieve the strategy goals I implemented following features:
     -   see the pictures from yoga sessions. 
 
 
-## [Site owner goals](#site-owner-goals)
+## Site owner goals
 
 - to promote Yoga Studio in the local area by offering in-studio classes and on-line by providing learning resources, 
 - to provide important information about Yoga Studio, such as: business background, offered classes, classes timetable, instructors silhouettes, contact information, address, opening times, social media profiles,  
@@ -98,9 +98,9 @@ To achieve the strategy goals I implemented following features:
 
 <br>
 
-#   [User Experience (UX)](#user-experience-ux)
+#   User Experience (UX)
 
-##  [Color Scheme](#colour-scheme)
+##  Color Scheme
 
 Colour palette was selected using coolors.co generator. 
 For beast readability and clean look white colour was chosen for the bacgkround, "Black Chocolate #272722" for text. I chose "Light Salmon #FF9F76" colour for hover, buttons and navigation elements to stand out and delicate "Miami Pink #FFD9EA" for sections background. "French Bistre #7A6D5B" colour was used for text in the footer. "Light Gray #D0D2D6" was used for boxes shadow effect and form input hover.   
@@ -109,7 +109,7 @@ For beast readability and clean look white colour was chosen for the bacgkround,
 
 <br>
 
-##  [Typography](#typography)
+##  Typography
 
 -   The Raleway font is the main font used throughout the whole website with Sans Serif as the fallback.The Raleway is a clean, modern looking font and is attractive. It is sourced from [Google fonts](https://fonts.google.com/specimen/Raleway) and it's linked to css document via @import.  
 
@@ -121,7 +121,7 @@ For beast readability and clean look white colour was chosen for the bacgkround,
 
 <br>
 
-##  [Structure](#structure)
+##  Structure
 
 ### Wireframes - [View all wireframes - PDF file](https://github.com/alexkisielewicz/Portfolio-Project-1/tree/main/docs/yoga_studio_portfolio_project_1.pdf)
 
@@ -224,9 +224,11 @@ TEXT PLACEHOLDER
 
 - [Visual Studio Code for Windows](https://code.visualstudio.com/) - IDE used to code the project.  
 
-- [GitHub:](https://github.com/) - GitHub is used to store the projects code after being pushed from Git.
+- [GitHub](https://github.com/) - GitHub is used to store the projects code after being pushed from Git.
 
-- [Photoshop:](https://www.adobe.com/ie/products/photoshop.html) - Photoshop was used to create the logo and resize the pictures. 
+- [Photoshop](https://www.adobe.com/ie/products/photoshop.html) - Photoshop was used to resize the pictures. 
+
+- [Adobe Express](https://express.adobe.com/) - online service used to create logo. 
 
 - [BD_sizer](https://bd-sizer.en.softonic.com/) - used for resizeing pictures in the gallery.
 
@@ -246,9 +248,9 @@ TEXT PLACEHOLDER
 
 <br>
 
-#    [Testing](#testing)
+#    Testing
 
-##   [Accesibility](#accesibility)
+##   Accesibility]
 
 TEXT PLACEHOLDER 
 
@@ -258,50 +260,50 @@ TEXT PLACEHOLDER
 
 ![](docs/validator_wave.png)
 
-##   [Performance](#performance)
+##   Performance
 
  [Lighthouse](https://developers.google.com/web) - Google webdev tool used for performance testing. 
 ![Lighthouse](docs/lighthouse.png)
 
-##   [Validation](#validation)
+##   Validation
 
-###   [HTML](#html)
+###   HTML
 
 - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
     index.html first result: 
 
-![](docs/validator_html_errors.png)
+![First test](docs/validator_html_errors.png)
 
     index.html - after fixes, final result: 
 
-FINAL RESULT SCREENSHOT PLACEHOLDER
+![Final test](docs/validator_html_final.png)
 
 Result for 404.html page
-![](docs/validator_404_thankyou.png)
+![404.html](docs/validator_404_thankyou.png)
 
 Result for thankyou.html page
-![](docs/validator_html_thankyou.png) 
+![thankyou.html](docs/validator_html_thankyou.png) 
 
-###   [CSS](#css)
+###   CSS
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](docs/validator_css.png)
 
-![](docs/validator_css.png)
+![CSS Validator](docs/validator_css.png)
 
-##   [Browser compatibility](#browser-compatibility)
+##   Browser compatibility
 
 CHROME, SAFARI, FIREFOX, OPERA, EDGE
 
-##   [Platforms/devices](#platforms-devices)
+##   Platforms/devices
 
 IPHONE, IPAD, LAPTOP
 
-##   [Bugs](#bugs)
+##   Bugs
 
 TEXT
 
-#   [Deployment](#deployment)
+#   Deployment
     
 The project was deployed to GitHub Pages using the following steps: 
 
@@ -315,17 +317,17 @@ The project was deployed to GitHub Pages using the following steps:
 
 <br>
 
-#   [Credits](#credits)
+#   Credits
 
-##  [Code](#code)
+##  Code
 
--   [Bootstrap5.2.0](https://getbootstrap.com/) - Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Additional features used/implemented and customised: Navbar, Carusel, Acordion, shortcode for spacing elements.  
+-   [Bootstrap5.2.0](https://getbootstrap.com/) - Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Additional features used/implemented and customised: Navbar, Carusel, Acordion, shortcode for creating the box model and spacing elements.  
 -   [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation) - phone number pattern validation code.
 -   [W3C Schools](https://www.w3schools.com/howto/howto_js_image_grid.asp) - tutorial followed to create responsive image grid gallery. 
 -   Code Institute README.md template has been used to create this document.  
 -   Mentor Reuben Ferrante for linear gradient background code used on website cover photo element.  
 
-##  [Media](#media)
+##  Media
 
 -   All images used were sourced from free stock photos [Pexels.com](https://pexels.com/) - Photographer [Elina Sazonova](https://elinasazonova.com/)
 -   Descriptions of yoga styles were sourced from below websites: 
@@ -335,7 +337,7 @@ The project was deployed to GitHub Pages using the following steps:
     * [Yin yoga](https://www.healthline.com/health/fitness/yin-yoga-poses)
     * [Pregnancy yoga](https://www.parents.com/pregnancy/my-body/fitness/prenatal-yoga-benefits/)
 
-##  [Acknowledgements](#acknowledgements)
+##  Acknowledgements
 
 -   My Mentor Reuben Ferrante for helpful feedback and guidance at all stages of the project. 
 -   Code Institute Slack Community for being invaluable knoledge base. 
@@ -343,5 +345,5 @@ The project was deployed to GitHub Pages using the following steps:
 -   Bootstrap Docs - for well documented crash course :)
 
 
-## [Disclaimer](#disclaimer) 
+## Disclaimer
 -   <b>Yoga Studio website was created for educational purpose only.</b> 
