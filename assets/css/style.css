@@ -385,7 +385,6 @@ iframe {
 		padding: 0px;
 	}
 
-
 	p {
 		padding: 10px;
 		text-align: left;
@@ -492,6 +491,12 @@ iframe {
 		flex: 50%;
 		max-width: 50%;
 	}
+
+	#learn img {
+		width: 100vw;
+		height: auto;
+	}
+
 }
 
 @media screen and (max-width: 600px) {
