@@ -417,10 +417,6 @@ iframe {
 		width: 100%;
 	}
 
-	#instructors p {
-		text-align: center;
-	}
-
 	#learn .container {
 		border-radius: 0;
 		box-shadow: none;
@@ -474,8 +470,9 @@ iframe {
 		max-width: 50%;
 	}
 
+	#instructors img,
 	#learn img {
-		width: 100vw;
+		max-width: 100vw;
 		height: auto;
 	}
 
