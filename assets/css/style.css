@@ -455,6 +455,7 @@ iframe {
 	}
 	
 	.caption h1 {
+		position: relative;
 		top: 30%;
 		text-align: center;
 		font-size: 1.5em;
@@ -466,7 +467,6 @@ iframe {
 	}
 
 	.button-cta {
-		position: relative;
 		bottom: 20%;
 		font-size: 1em;
 		padding: 5px 5px;
