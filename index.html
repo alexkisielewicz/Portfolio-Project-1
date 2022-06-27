@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width initial-scale=1">
   <meta name="description" content="This is Portfolio Project#1 created by Aleksander Kisielewicz">
-  <meta name="keywords" content="yoga, Dublin, studio, on-line classes, lessons, yoga instructors">
+  <meta name="keywords" content="yoga, Dublin, studio, on-line, classes, lessons, yoga instructors">
   <meta name="author" content="Aleksander Kisielewicz">
   <title>Yoga Studio</title>
   <!-- Bootstrap CSS stylesheet -->
@@ -22,7 +22,6 @@
 </head>
 <body>
 <!-- Bootstrap (Customised) Navbar START -->
-<header>
   <nav class="navbar navbar-expand-xl fixed-top">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -54,11 +53,10 @@
       </ul>
     </div>
   </nav>
-</header>
 <!-- Bootstrap Navbar END -->
 
-<!-- Bootstrap Carousel START. Style of captions and it's positioning has been customized -->
-<section id="carousel">
+<!-- Bootstrap Carousel START. Style of captions and it's position has been customized -->
+<header id="carousel">
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -97,7 +95,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-</section>
+</header>
 <!-- Bootstrap Carusel END -->
 
 <!-- About section START -->
@@ -139,7 +137,7 @@
 </main>
 <!-- About section END -->
 
-<!-- Timetable section START -->
+<!-- Timetable section START, bootstrap shortcode used to pick cells background colour -->
 <section id="timetable">
   <div class="container py-5">
     <div class="row">
@@ -213,7 +211,7 @@
         <p class="justify">We are providing you resources to learn the basic and advanced poses. Weather you like in-studio on remote classes we provide you both options to master your technique. Our instructors use best methods to controll body and mind and now you have access to 100+ on-line lessons. You can practice classic yoga or try our special programmes developed by our <a href="#instructors" title="Meet our yoga instructors">experienced instructors</a>.
         </p>
         <h3 class="text-center py-4">Which style of yoga is best for you?</h3>  
-<!-- Accordion feature START (customised bootstrap feature)-->          
+        <!-- Accordion feature START (customised bootstrap feature)-->          
         <div class="accordion accordion-flush">
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
@@ -313,7 +311,7 @@
               </div>
             </div>
           </div>
-<!-- Accordion feature END -->
+          <!-- Accordion feature END -->
       </div> 
         <div class="row text-center g-0 py-5">
           <div class="col level">
@@ -375,7 +373,6 @@
 <!-- Instructors section END -->
 
 <!-- Gallery section START, inspired by "image grid" tutorial from w3schools.com -->
-<!-- Validator reports: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. -->
 <section id="gallery">
     <div class="gallery-row">
       <div class="gallery-column">
@@ -408,14 +405,14 @@
 <!-- Gallery section END -->
 
 <!-- Quote of the day section START -->
-<article class="py-5">
+<aside class="py-5">
     <div class="py-5 center">
       <h2>Quote of the day <i class="fa-solid fa-quote-left icons-header"></i></h2>
       <div class="col-lg-6 mx-auto">
         <blockquote class="quote">“True yoga is not about the shape of your body, but the shape of your life. Yoga is not to be performed; yoga is to be lived. Yoga doesn’t care about what you have been; yoga cares about the person you are becoming. Yoga is designed for a vast and profound purpose, and for it to be truly called yoga, its essence must be embodied.” — Aadil Palkhivala</blockquote>
       </div>
     </div>
-</article>
+</aside>
 <!-- Quote of the day section END -->
 
 <!-- Youtube video section START -->
@@ -436,8 +433,7 @@
       </p>
     </div>
     <div class="booking col">
-      <!-- Booking form START 
-      All fields are validated except date picker - user now can select date from the past, feature requires additional script -->
+      <!-- Booking form START  -->
       <form method="get" action="thankyou.html">
         <div>
             <label for="name">Your full name:</label>
@@ -479,7 +475,6 @@
 <!-- Booking section END-->
 
 <!-- Google Map section START -->
-<!-- Validator reports: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.-->
 <section>
   <div class="container-fluid">
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5666.67184147187!2d-6.26956336543058!3d53.33355301077647!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x93598c4443e33875!2sHot%20Yoga%20by%20Yoga%20Dublin!5e0!3m2!1spl!2sie!4v1654731910019!5m2!1spl!2sie" style="border:0;" allowfullscreen="" title="Our location on the google maps" referrerpolicy="no-referrer-when-downgrade" loading="lazy" class="map"></iframe>
@@ -509,7 +504,7 @@
         </p>
         <p>
           Opening times: <br> 
-          Mon-Fri: 08:00-16:00, Sat-Sun 08:00-16:00
+          Mon-Fri: <time>08:00</time>-<time>16:00</time>, Sat-Sun <time>08:00</time>-<time>16:00</time>
         </p>
         <p class="copyright">
           <a href="#" title="Privacy policy">Privacy Policy</a> &bull; 
@@ -542,14 +537,5 @@
 <!-- Bootstrap JavaScript START -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <!-- Bootstrap JavaScript FINISH -->
-
-<!-- TODO
-Headers size
-Format the code
-Validate HTML
-Validate CSS
-Check semantic markup structure
--->
-
 </body>
 </html>
