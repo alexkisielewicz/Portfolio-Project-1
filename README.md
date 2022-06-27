@@ -130,6 +130,12 @@ For beast readability and clean look white colour was chosen for the bacgkround,
 
 Page is designed in well known scrolling page style that users like. It provides fast access to information and immerses user in the story. Navigation bar is always visible in the viewport, that reduces number of clicks to reach desirable content. Website consists of following sections: 
 
+## Navbar 
+
+The navigation bar is customised Bootstrap Navbar. It contains custom logo made using Adobe Express on-line tool and 7 links to relevant sections. All menu elements are highlighted on hover and navbar is sticked to the top of the viewport when scrolling. On small screens navbar shows well-known "hamburger" icon and collapsible menu. 
+
+![Navbar](docs/screenshot_navbar.png) 
+
 ## Carousel
 
 Bootstrap carousel shows 3 slides with photos that cover whole viewport on big screens. Each caption consists of Header, short slogan and call-to-action button that is linked to relevant key section. Carousel slides cycle through automaticaly but site user can take control over this function thanks to slider buttons and active slide indicator.  
@@ -253,6 +259,8 @@ An error page in case that user tries to open a website that cannot be found on 
 - [Lighthouse](https://developers.google.com/web) - Google webdev tool used for performance testing. 
 
 - [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) - used to validate accessibility. 
+
+- [Favicon.io](https://www.favicon.io) - tool used to create favicon. 
 
 
 <br>
