@@ -315,15 +315,15 @@ Result for thankyou.html page :heavy_check_mark:
 
 ##   Browser compatibility
 
-CHROME, SAFARI, FIREFOX, OPERA, EDGE
+Website was manually tested on following browsers: Google Chrome, Edge, Firefox, Safari, Brave. 
 
 ##   Platforms/devices 
 
-IPHONE, IPAD, LAPTOP
+Website was tested manually on Apple Iphone X, Apple iPad, Apple Macbook Air, Ultrawide display 3440x1440, 2560x1440. 
 
 ##   Bugs/known issues
 
-TEXT
+There was a minor issue spotted. Google Dev tools and Apple iPAD display position of "call to action" button in different way. My intention was to place it underneath the carousel caption text. Ipad displays it on top of the caption.  
 
 ![Bug](docs/bug1.png)
 
