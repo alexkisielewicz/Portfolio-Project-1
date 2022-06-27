@@ -290,7 +290,7 @@ TEXT PLACEHOLDER
 
 ###   HTML
 
-- [W3C Markup Validator](https://validator.w3.org/nu/) 
+- [W3C Markup Validator](https://validator.w3.org/nu/) - validation service used. 
 
 :x: index.html - first result found 2 errors that refer to unclosed element and missing open element. <br>
 Three warnings refer to lack of heading in sections such as Gallery, YouTube video or Google Map and also recommend using h2-h6 headers instead of h1 used in Carousel caption.  
@@ -309,7 +309,11 @@ Result for thankyou.html page :heavy_check_mark:
 
 ###   CSS
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Result: No Error Found. :heavy_check_mark:
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)  - validation service used. 
+
+- [Custom stylesheet](https://alexkisielewicz.github.io/Portfolio-Project-1/assets/css/style.css) -  No Error Found. :heavy_check_mark: 
+
+- [Bootstrap stylesheet](https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css) - has errors :x: 
 
 ![CSS Validator](docs/validator_css.png)
 
