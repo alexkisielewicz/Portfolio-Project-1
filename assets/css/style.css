@@ -21,11 +21,6 @@ a:hover {
 	text-decoration-color: #ff9f76;
 }
 
-input:focus {
-	outline-color: #ff9f76;
-	border: 1px solid #ff9f76;
-}
-
 /* Customising Bootstrap Navbar */
 .navbar {
 	color: #ff9f76;
@@ -57,27 +52,22 @@ input:focus {
 	display: inline-block;
 }
 
-.nav-item img:hover {
-	background-color: #000;
-	text-decoration: none;
-}
-
 .navbar-nav li:hover {
 	background-color: #ff9f76;
 }
 
-/* Styling Call-to-action button in the Carousel caption and site body */
+/* Styling Call-To-Action button used in the Carousel caption, "timetable" and "learn" sections. */
 .button-cta {
 	position: relative;
 	top: 50%;
 	font-size: 1.5em;
-	padding: 10px 10px;
-	margin: 10px 10px;
-	text-align: center;
 	font-weight: 900;
+	text-align: center;
 	color: #272722;
+	margin: 10px 10px;
 	background-color: #ff9f76;
 	border: 0;
+	padding: 10px 10px;
 }
 
 .button-cta:hover {
@@ -93,7 +83,7 @@ label {
 	margin: 0 20px;
 }
 
-/* 3 id's for carousel cover images and it's caption */
+/* 3 ID's for carousel cover images and it's caption */
 #cover-photo1 {
 	height: 100vh;
 	background: url(../../assets/img/cover1.webp) center / cover;
@@ -132,7 +122,7 @@ label {
 	font-weight: 700;
 }
 
-/* Styling containers, removing margins - to override margins for bootstrap containers and hr line dividers */
+/* Styling containers, removing margins - to override margins for bootstrap containers*/
 .container-fluid {
 	padding: 0;
 }
@@ -171,13 +161,13 @@ label {
 }
 
 .accordion-body {
-	margin: 20px;
 	background: #FFE9F3;
 	color: #333;
 	text-align: left;
+	margin: 20px;
 }
 
-/* Stylink "thank you" and "404" page */
+/* Stylink "thankyou" and "404" pages */
 .thankyou-caption {
 	width: 100vw;
 	height: 100vh;
@@ -229,7 +219,7 @@ label {
 }
 
 
-/* Table from Timetable section */
+/* Table from Class Timetable section */
 table {
 	margin: auto;
 	text-align: center;
@@ -241,17 +231,9 @@ table {
 	font-weight: 600;
 }
 
-ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-
 th {
-	width: 6vw;
-	border-bottom: 2px solid brown;
+	border-bottom: 2px solid #FFD9EA;
 }
-
 
 /* Styling Booking section elements */
 .booking {
@@ -264,7 +246,7 @@ th {
 }
 
 .booking input:hover {
-	background-color: #D0D2D6;
+	background-color: #FFD9EA;
 }
 
 .submit {
@@ -281,7 +263,7 @@ th {
 	color: #272722;
 }
 
-/* Styling <img> element for yoga instructor avatars */
+/* Styling Instructors section */
 .instructors {
 	width: 100%;
 }
@@ -333,7 +315,6 @@ th {
 	margin: 20px;
 }
 
-
 /* Styling iframe element for Google Map */
 iframe {
 	width: 100%;
@@ -341,6 +322,7 @@ iframe {
 	display: block;
 }
 
+/* Styling YouTube embeded video */
 .youtube {
 	height: 30em;
 	display: block;
@@ -355,7 +337,6 @@ iframe {
 	font-size: 0.75em;
 	padding: 0 0.25em;
 }
-
 
 .icons-social {
 	font-size: 1.5em;
@@ -511,6 +492,7 @@ iframe {
 	}
 }
 
+/* Gallery images are viewport width up to 600px */
 @media screen and (max-width: 600px) {
 
 	.gallery-row {
@@ -528,6 +510,7 @@ iframe {
 	}
 }
 
+/* Tablets, up to 768px */
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
 
 	body {
@@ -693,7 +676,7 @@ iframe {
 	}
 }
 
-/* Large devices (desktops, less than 1200px) */
+/* Large devices (laptops, desktops, less than 1200px) */
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
 
 	.caption {
