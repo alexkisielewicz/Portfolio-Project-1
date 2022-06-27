@@ -311,7 +311,7 @@ Result for thankyou.html page :heavy_check_mark:
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)  - validation service used. 
 
-- [Custom stylesheet](https://alexkisielewicz.github.io/Portfolio-Project-1/assets/css/style.css) -  No Error Found. :heavy_check_mark: 
+- [Custom stylesheet](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Falexkisielewicz.github.io%2FPortfolio-Project-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en-EN) -  No Error Found. :heavy_check_mark: 
 
 - [Bootstrap stylesheet](https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css) - has errors :x: 
 
