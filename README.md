@@ -157,7 +157,7 @@ This section presents photo avatars of yoga instructors working in Yoga Studio. 
 ![Instructors](docs/screenshot_instructors.png)
 
 ## Gallery
-The image gallery contains visually consistent and eye-pleasing photographs that provide user an insight of how Yoga Studio looks like and what is the "vibe" in there. Photo grid is made of 5 columns by 3 pictures in each column. It takes all viewport width and is responsive on all devices. On a smaller screens up to 600px wide, a single photo takes all screen width. The grid layout idea was inspired by tutorial found on w3cschhols.com.   
+The image gallery contains visually consistent and eye-pleasing photographs that provide user an insight of how Yoga Studio looks like and what is the "vibe" in there. Photo grid is made of 5 columns by 3 pictures in each column. It takes all viewport width and is responsive on all devices. On a smaller screens up to 600px wide, a single photo takes all screen width. The grid layout idea was inspired by tutorial found on [w3cschhols.com](https://www.w3schools.com/howto/howto_js_image_grid.asp) 
 
 ![Gallery](docs/screenshot_gallery.png)
 
@@ -168,27 +168,28 @@ The "Quote of the day" section displays a yoga related quote that should motivat
 ![Quote](docs/screenshot_quote.png)
 
 ## Youtube video
-Video section is full width iframe that contains YouTube video with relevant content. It links the user with business's YouTube channel and encourage him to interact longer with the content and build deeper interest in yoga and as a result - to get new customer.  
+Video section presents full width iframe that contains YouTube video with relevant content. It links the user with business's YouTube channel and encourage him to interact longer with the content and build deeper interest in yoga and as a result - to become new customer. 
 
 ![Youtube](docs/screenshot_youtube.png)
 
 ## "Sign-in" - booking form
-The booking form is a key point of a website where user is being led consequently to make interaction and join the business as a new customer. All form fields are marked as required and are validated. They form provides feedback in case the user input is incorrect. Date select field requires further script to prevent user from picking a date from the past. Upon successful completion of the form website provides user feedback by transfering him to thankyou.html page.   
+The booking form is a key point of a website where user is being led consequently to make interaction and join the business as a new customer. All form fields are marked as required and are validated. The form provides feedback in case the users input is incorrect. Date select field requires further script to prevent user from picking a date from the past. Upon successful completion of the form website provides user a feedback by transfering him to thankyou.html page.    
 
 ![Booking](docs/screenshoot_booking.png)
 
 ## Footer
-The classic footer is preceded by Google Map section that indicated precise location of Yoga Studio. Footer contains of three columns, that provides information accorgingly about address, contact and opening hours. The last column presents presents social media icons that encourage user to follow the business on different platforms. Bottom right corner contains an icons with "back to the top" link.   
+The classic footer is preceded by Google Map section that indicated precise location of Yoga Studio. The footer contains of three columns, that provides information accordingly about address, contact and opening hours. The last column presents social media icons that encourage user to follow the business on various platforms. In bottom right corner of a website is  located an icon with "back to top" link.    
 
 ![Footer](docs/screenshot_footer.png)
 
 ## Thank you page
-TEXT PLACEHOLDER
+The page where user is transferred to upon successful completion of the booking form. User doesn't have to use browser "go back" button, the link to the main page is provided.      
+
 
 ![Thankyou](docs/screenshoot_thankyou.png)
 
 ## HTTP 404 Page
-TEXT PLACEHOLDER
+An error page in case that user tries to open a website that cannot be found on the web server. User doesn't have to use browser "go back" button, the link to the main page is provided.      
 
 ![404](docs/screenshot_404.png)
 
