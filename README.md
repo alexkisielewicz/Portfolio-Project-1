@@ -132,52 +132,53 @@ Page is designed in well known scrolling page style that users like. It provides
 
 ## Carousel
 
-Carousel
+Bootstrap carousel shows 3 slides with photos that cover whole viewport on big screens. Each caption consists of Header, short slogan and call-to-action button that is linked to relevant key section. Carousel slides cycle through automaticaly but site user can take control over this function thanks to slider buttons and active slide indicator.  
 
 ![Carousel](docs/screenshot_carousel.png)
 
 ## About
-TEXT PLACEHOLDER
+The About section is descriptive part of a website and provides information about company's goal and purpose. It also promotes yoga as activity that brings healt benefits to the user. The business key points are presented using row of icons. Use of negative space make it easy for user to read the content and focus on important parts. 
 
 ![About](docs/screenshot_about.png)
 
 ## Timetable
-TEXT PLACEHOLDER
+Timetable section contains of a table presenting information about weekly activities in the studio. The classes are cetagorised in gour levels: intro, beginner, advanced and pregnancy. The cells of each category are highlited in different colour. The table is scrollable horizontaly on smaller screens. Underneath the table there is call-to-action button linked to class booking form.     
 
 ![Timetable](docs/screenshot_timetable.png)
 
 ## Learn
-TEXT PLACEHOLDER
+In this section there is a short decription of company's offer. Bootstrap accordion feature has been used to accomodate five headers and paragpraphs describing different yoga styles and offered classes. For those who are looking for on-line learning resources, there are two categories of lessons - for beginner and advanced user. I imagine that full content of articles and video lessons would be available on those sub pages.     
 
 ![Learn](docs/screenshot_learn.png)
 
 ## Instructors
-TEXT PLACEHOLDER
+This section presents photo avatars of yoga instructors working in Yoga Studio. Sup pages would present full silhouettes of each instructor. 
 
 ![Instructors](docs/screenshot_instructors.png)
 
 ## Gallery
-TEXT PLACEHOLDER
+The image gallery contains visually consistent and eye-pleasing photographs that provide user an insight of how Yoga Studio looks like and what is the "vibe" in there. Photo grid is made of 5 columns by 3 pictures in each column. It takes all viewport width and is responsive on all devices. On a smaller screens up to 600px wide, a single photo takes all screen width. The grid layout idea was inspired by tutorial found on w3cschhols.com.   
 
 ![Gallery](docs/screenshot_gallery.png)
 
 ## Quote
-TEXT PLACEHOLDER
+
+The "Quote of the day" section displays a yoga related quote that should motivate user, attract him to yoga or persuade him to make a contact or booking.  
 
 ![Quote](docs/screenshot_quote.png)
 
 ## Youtube video
-TEXT PLACEHOLDER
+Video section is full width iframe that contains YouTube video with relevant content. It links the user with business's YouTube channel and encourage him to interact longer with the content and build deeper interest in yoga and as a result - to get new customer.  
 
 ![Youtube](docs/screenshot_youtube.png)
 
 ## "Sign-in" - booking form
-TEXT PLACEHOLDER
+The booking form is a key point of a website where user is being led consequently to make interaction and join the business as a new customer. All form fields are marked as required and are validated. They form provides feedback in case the user input is incorrect. Date select field requires further script to prevent user from picking a date from the past. Upon successful completion of the form website provides user feedback by transfering him to thankyou.html page.   
 
 ![Booking](docs/screenshoot_booking.png)
 
 ## Footer
-TEXT PLACEHOLDER
+The classic footer is preceded by Google Map section that indicated precise location of Yoga Studio. Footer contains of three columns, that provides information accorgingly about address, contact and opening hours. The last column presents presents social media icons that encourage user to follow the business on different platforms. Bottom right corner contains an icons with "back to the top" link.   
 
 ![Footer](docs/screenshot_footer.png)
 
