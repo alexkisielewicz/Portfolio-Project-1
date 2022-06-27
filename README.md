@@ -4,7 +4,7 @@
 
 ![Am I Responsive](docs/screenshot_mockup.png)
 
-[View live website here.](https://alexkisielewicz.github.io/Portfolio-Project-1/)
+[View live website here.](https://alexkisielewicz.github.io/Portfolio-Project-1/) :computer:
 
 [View full page screenshot](docs/screencapture-portfolio-project-1.png)
 
@@ -205,7 +205,7 @@ TEXT PLACEHOLDER
     * Navbar,
     * Carousel,
     * Acordion,
-    * Shortcode for spacing elements (eg. px-5)
+    * Shortcode for spacing elements and table cell background colour (eg. px-5, warning). 
 - [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create the [wireframes](#structure) during the design process.
 
 - [Coolors.co](https://coolors.co/) - was used to create color palette. 
@@ -282,24 +282,24 @@ TEXT PLACEHOLDER
 
 - [W3C Markup Validator](https://validator.w3.org/nu/) 
 
-index.html - first result found 2 errors that refer to unclosed element and missing open element. <br>
+:x: index.html - first result found 2 errors that refer to unclosed element and missing open element. <br>
 Six warnings refer to lack of heading in sections such as Gallery, YouTube video or Google Map and also recommend using h2-h6 headers instead of h1 used in Carousel caption.  
 
-![First test](docs/validator_html_errors.png)
+![First test](docs/validator_html_errors.png) 
 
-index.html - after error fixes, final result: ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Falexkisielewicz.github.io%2FPortfolio-Project-1%2F)
+index.html - after error fixes, final result: :heavy_check_mark: ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Falexkisielewicz.github.io%2FPortfolio-Project-1%2F)
 
 ![](docs/validator_html_final.png)
 
-Result for 404.html page
-![404.html](docs/validator_404_thankyou.png)
+Result for 404.html page :heavy_check_mark:
+![404.html](docs/validator_404_thankyou.png) 
 
-Result for thankyou.html page
+Result for thankyou.html page :heavy_check_mark:
 ![thankyou.html](docs/validator_html_thankyou.png) 
 
 ###   CSS
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Result: No Error Found.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Result: No Error Found. :heavy_check_mark:
 
 ![CSS Validator](docs/validator_css.png)
 
