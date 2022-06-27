@@ -8,7 +8,7 @@
 
 [View full page screenshot](docs/screencapture-portfolio-project-1.png)
 
-This is Yoga Studio website created as Portfolio Project #1 (HTML&CSS) for Diploma in Full Stack Software Development at [Code Institute](https://www.codeinstitute.net). It is responsive across a range of devices and it is easy to navigate for site users. 
+This is Yoga Studio website created for Portfolio Project #1 (HTML&CSS) for Diploma in Full Stack Software Development at [Code Institute](https://www.codeinstitute.net). It is responsive across a range of devices and it is easy to navigate for site users. 
 
 <br>
 
@@ -226,7 +226,7 @@ TEXT PLACEHOLDER
 
 - [Visual Studio Code for Windows](https://code.visualstudio.com/) - IDE used to code the project.  
 
-- [GitHub](https://github.com/) - GitHub is used to store the projects code after being pushed from Git.
+- [GitHub](https://github.com/) - GitHub is used to store the project's code after being pushed from Git.
 
 - [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html) - Photoshop was used to resize the pictures. 
 
@@ -283,11 +283,11 @@ TEXT PLACEHOLDER
 - [W3C Markup Validator](https://validator.w3.org/nu/) 
 
 :x: index.html - first result found 2 errors that refer to unclosed element and missing open element. <br>
-Six warnings refer to lack of heading in sections such as Gallery, YouTube video or Google Map and also recommend using h2-h6 headers instead of h1 used in Carousel caption.  
+Three warnings refer to lack of heading in sections such as Gallery, YouTube video or Google Map and also recommend using h2-h6 headers instead of h1 used in Carousel caption.  
 
 ![First test](docs/validator_html_errors.png) 
 
-index.html - after error fixes, final result: :heavy_check_mark: ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Falexkisielewicz.github.io%2FPortfolio-Project-1%2F)
+:heavy_check_mark: index.html - after error fixes, final result: ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Falexkisielewicz.github.io%2FPortfolio-Project-1%2F)
 
 ![](docs/validator_html_final.png)
 
