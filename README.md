@@ -32,8 +32,8 @@ This is Yoga Studio website created for Portfolio Project #1 (HTML&CSS) for Dipl
     *   [HTML](#html)
     *   [CSS](#css)
     *   [Browser compatibility](#browser-compatibility)
-    *   [Platforms/devices](#platforms-devices)
-    *   [Bugs](#bugs)
+    *   [Platforms/devices](#platformsdevices)
+    *   [Bugs/known issues](#bugsknown-issues)
 *   [Deployment](#deployment)
 *   [Credits](#credits)
     *   [Code](#code)
@@ -232,7 +232,7 @@ TEXT PLACEHOLDER
 
 - [Adobe Express](https://express.adobe.com/) - online service used to create logo. 
 
-- [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) - used to analyse contrast. 
+- [Audioyey.com](https://www.audioeye.com/color-contrast-checker) - used to analyse contrast. 
 
 - [BD_sizer](https://bd-sizer.en.softonic.com/) - used for resizeing pictures in the gallery.
 
@@ -307,7 +307,7 @@ Result for thankyou.html page :heavy_check_mark:
 
 CHROME, SAFARI, FIREFOX, OPERA, EDGE
 
-##   Platforms/devices
+##   Platforms/devices 
 
 IPHONE, IPAD, LAPTOP
 
