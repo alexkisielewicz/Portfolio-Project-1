@@ -4,7 +4,7 @@
 
 ![Am I Responsive](docs/screenshot_mockup.png)
 
-[View live website here.](https://alexkisielewicz.github.io/Portfolio-Project-1/) :computer:
+[View live website here](https://alexkisielewicz.github.io/Portfolio-Project-1/) :computer:
 
 [View full page screenshot](docs/screencapture-portfolio-project-1.png)
 
@@ -289,7 +289,7 @@ Three warnings refer to lack of heading in sections such as Gallery, YouTube vid
 
 :heavy_check_mark: index.html - after error fixes, final result: ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Falexkisielewicz.github.io%2FPortfolio-Project-1%2F)
 
-![](docs/validator_html_final.png)
+![Final test](docs/validator_html_final.png)
 
 Result for 404.html page :heavy_check_mark:
 ![404.html](docs/validator_404_thankyou.png) 
@@ -311,9 +311,11 @@ CHROME, SAFARI, FIREFOX, OPERA, EDGE
 
 IPHONE, IPAD, LAPTOP
 
-##   Bugs
+##   Bugs/known issues
 
 TEXT
+
+![Bug](docs/bug1.png)
 
 #   Deployment
     
