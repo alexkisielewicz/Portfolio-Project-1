@@ -319,11 +319,11 @@ Result for thankyou.html page :heavy_check_mark:
 
 ##   Browser compatibility
 
-Website was manually tested on following browsers: Google Chrome, Edge, Firefox, Safari, Brave. 
+Website was tested manually on following browsers: Google Chrome, Edge, Firefox, Safari, Brave. The results were satisfactory.   
 
 ##   Platforms/devices 
 
-Website was tested manually on Apple Iphone X, Apple iPad, Apple Macbook Air, Ultrawide display 3440x1440, 2560x1440. 
+Website was tested manually on Apple Iphone X, Apple iPad, Apple Macbook Air, Samsung Galaxy Tab S7+, Ultrawide display 3440x1440 and classic 16:9 2560x1440 display. The results were satisfactory.  
 
 ##   Bugs/known issues
 
