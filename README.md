@@ -9,6 +9,8 @@
 [View full page screenshot](docs/screencapture-portfolio-project-1.png)
 
 This is Yoga Studio website created for Portfolio Project #1 (HTML&CSS) for Diploma in Full Stack Software Development at [Code Institute](https://www.codeinstitute.net). It is responsive across a range of devices and it is easy to navigate for site users. 
+<br>
+The users of this website will be able to find all importtant information about Yoga Studio such as about the studio, classes timetable, learning resources, photo gallery, booking form, contact and address information. The site is created for yoga enthusiasts who wants to join local studio or practice at home following on-line lessons.  
 
 <br>
 
