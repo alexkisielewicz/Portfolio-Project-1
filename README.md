@@ -36,6 +36,7 @@ The users of this website will be able to find all importtant information about 
     *   [Browser compatibility](#browser-compatibility)
     *   [Platforms/devices](#platformsdevices)
     *   [Bugs/known issues](#bugsknown-issues)
+    *   [Responsiveness](#responsiveness)
 *   [Deployment](#deployment)
 *   [Credits](#credits)
     *   [Code](#code)
@@ -326,6 +327,10 @@ Website was tested manually on following browsers: Google Chrome, Edge, Firefox,
 ##   Platforms/devices 
 
 Website was tested manually on Apple Iphone X, Apple iPad, Apple Macbook Air, Samsung Galaxy Tab S7+, Ultrawide display 3440x1440 and classic 16:9 2560x1440 display. The results were satisfactory.  
+
+## Responsiveness 
+
+I confirmed that this website is responsive and all the functions are displayed correctly and booking booking form work fine.   
 
 ##   Bugs/known issues
 
