@@ -55,8 +55,8 @@ Yoga Studio website aims to provide essential information about the studio and i
 <br>
 To achieve the strategy goals I implemented following features:
 [x] simple website layout with a menu bar sticked to the top of the viewport for easy navigation,  
-[] a carousel with caption images and call-to-action buttons forwarding user to relevant sections,
-[] imformative "About" and "Learn" sections, 
+[ ] a carousel with caption images and call-to-action buttons forwarding user to relevant sections,
+[ ] imformative "About" and "Learn" sections, 
 * multiple call-to-action buttons across the whole page,  
 * "Sign-in!" section with booking form providing feedback on submission,    
 * consistent images across the whole page to immerse the user in Site Owner's story. 
