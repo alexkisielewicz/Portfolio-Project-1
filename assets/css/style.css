@@ -64,14 +64,15 @@ a:hover {
 	font-weight: 900;
 	text-align: center;
 	color: #272722;
-	margin: 10px 10px;
 	background-color: #ff9f76;
-	border: 0;
+	border: 1px solid #ff9f76;
+	margin: 10px 10px;
 	padding: 10px 10px;
 }
 
 .button-cta:hover {
 	background-color: #FFD9EA;
+	border: 1px solid #ff9f76; 
 }
 
 /* Styling basic elements and adding classes to position site elements */
@@ -246,7 +247,7 @@ th {
 }
 
 .booking input:hover {
-	background-color: #FFD9EA;
+	border: 1px solid #ff9f76;
 }
 
 .submit {
