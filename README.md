@@ -9,6 +9,8 @@
 [View full page screenshot](docs/screencapture-portfolio-project-1.png)
 
 This is Yoga Studio website created for Portfolio Project #1 (HTML&CSS) for Diploma in Full Stack Software Development at [Code Institute](https://www.codeinstitute.net). It is responsive across a range of devices and it is easy to navigate for site users. 
+<br>
+The users of this website will be able to find all importtant information about Yoga Studio such as about the studio, classes timetable, learning resources, photo gallery, booking form, contact and address information. The site is created for yoga enthusiasts who wants to join local studio or practice at home following on-line lessons.  
 
 <br>
 
@@ -34,6 +36,7 @@ This is Yoga Studio website created for Portfolio Project #1 (HTML&CSS) for Dipl
     *   [Browser compatibility](#browser-compatibility)
     *   [Platforms/devices](#platformsdevices)
     *   [Bugs/known issues](#bugsknown-issues)
+    *   [Responsiveness](#responsiveness)
 *   [Deployment](#deployment)
 *   [Credits](#credits)
     *   [Code](#code)
@@ -324,6 +327,10 @@ Website was tested manually on following browsers: Google Chrome, Edge, Firefox,
 ##   Platforms/devices 
 
 Website was tested manually on Apple Iphone X, Apple iPad, Apple Macbook Air, Samsung Galaxy Tab S7+, Ultrawide display 3440x1440 and classic 16:9 2560x1440 display. The results were satisfactory.  
+
+## Responsiveness 
+
+I confirmed that this website is responsive and all the functions are displayed correctly and booking booking form work fine.   
 
 ##   Bugs/known issues
 
