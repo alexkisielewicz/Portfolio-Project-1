@@ -374,7 +374,7 @@ iframe {
 
 /* Media queries - responsiveness */
 
-/* X-small devices, phones in portrait mode 675px*/
+/* X-small devices, phones in portrait mode 576px*/
 @media (max-width: 575.98px) {
 
 	body {
@@ -493,7 +493,7 @@ iframe {
 	}
 }
 
-/* Gallery images are viewport width up to 600px */
+/* Gallery images are "viewport width" up to 600px */
 @media screen and (max-width: 600px) {
 
 	.gallery-row {
@@ -553,6 +553,7 @@ iframe {
 		width: 100%;
 	}
 
+/* Smaller carousel cover images for mobile use*/ 
 	#cover-photo1 {
 		height: 60vh;
 		background: url(../../assets/img/cover1_mobile.webp) center / cover;
@@ -599,7 +600,7 @@ iframe {
 }
 
 
-/* Medium devices (tablets, less than 992px) */
+/* Medium devices (tablets, bigger than 768 px but less than 992px) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
 
 	p {
@@ -632,6 +633,7 @@ iframe {
 		box-shadow: 10px 10px 5px #D0D2D6;
 	}
 
+/* smaller carousel cover images for mobile use */
 	#cover-photo1 {
 		height: 60vh;
 		background: url(../../assets/img/cover1_mobile.webp) center / cover;
