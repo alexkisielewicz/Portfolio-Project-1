@@ -243,7 +243,7 @@ An error page in case that user tries to open a website that cannot be found on 
 
 - [Adobe Express](https://express.adobe.com/) - online service used to create logo. 
 
-- [Audioyey.com](https://www.audioeye.com/color-contrast-checker) - used to analyse contrast. 
+- [Audioeye.com](https://www.audioeye.com/color-contrast-checker) - used to analyse contrast. 
 
 - [BD_sizer](https://bd-sizer.en.softonic.com/) - used for resizeing pictures in the gallery.
 
@@ -272,7 +272,7 @@ An error page in case that user tries to open a website that cannot be found on 
 
 ##   Accessibility
 
-TEXT PLACEHOLDER 
+Foreground and background color contrast check was done using [Audioeye.com](http://www.audioeye.com) online tool.
 
 ![Contrast 1](docs/contrast1.png) 
 
